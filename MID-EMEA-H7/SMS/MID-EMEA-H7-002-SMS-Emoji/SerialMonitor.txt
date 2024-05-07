@@ -1,0 +1,27 @@
+---------
+Test Scenario ID: MID-EMEA-H7-002-SMS-Emoji
+---------
+
+Connecting to network...
+SIM Status: 0
+SIM not ready, cannot connect to network.
+Failed to connect to network.
+---
+Test Case ID: MID-EMEA-H7-002-SMS-Emoji-01
+Send Tears of Joy emoji (😂)...
+😂
+Response: 2
+---
+Test Case ID: MID-EMEA-H7-002-SMS-Emoji-02
+Send Thumbs Up with Medium Skin Tone (👍🏽)...
+👍🏽
+Response: 0
+---
+Test Case ID: MID-EMEA-H7-002-SMS-Emoji-03
+Send Man Cartwheeling (🤸‍♂️)...
+🤸‍♂️
+Response: 0
+
+---------
+End of Test Scenario ID: MID-EMEA-H7-002-SMS-Emoji
+---------

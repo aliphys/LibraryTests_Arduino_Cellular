@@ -1,0 +1,19 @@
+---------
+Test Scenario ID: MID-EMEA-H7-001-Example-RecieveSMS
+---------
+
+---
+Test Case ID: MID-EMEA-H7-001-Example-RecieveSMS-01
+Connecting to network...
+SIM Status: 1
+Waiting for network registration...
+No APN specified, not connecting to GPRS
+Connected!
+Unread SMS messages currently on memory...
+---
+Test Case ID: MID-EMEA-H7-001-Example-RecieveSMS-02
+Send SMS, then hit Enter to continue...
+
+---------
+End of Test Scenario ID: MID-EMEA-H7-001-Example-RecieveSMS
+---------

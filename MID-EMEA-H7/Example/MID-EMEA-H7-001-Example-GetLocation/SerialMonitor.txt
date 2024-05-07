@@ -1,0 +1,24 @@
+---------
+Test Scenario ID: MID-EMEA-H7-001-Example-GetLocation
+---------
+
+---
+Test Case ID: MID-EMEA-H7-001-Example-GetLocation-01
+Enabling GPS...
+Failed to set GPS mode.
+Response: 
+ERROR
+
+Failed to enable GPS
+---
+Test Case ID: MID-EMEA-H7-001-Example-GetLocation-02
+Unsupported modem model
+GPS Location:
+* Latitude: 0.000000
+* Longitude: 0.000000
+--------------------
+
+
+---------
+End of Test Scenario ID: MID-EMEA-H7-001-Example-GetLocation
+---------

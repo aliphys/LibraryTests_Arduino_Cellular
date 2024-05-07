@@ -1,0 +1,732 @@
+
+FQBN: arduino:mbed_portenta:envie_m7
+Using board 'envie_m7' from platform in folder: C:\Users\Ali Jahangiri\AppData\Local\Arduino15\packages\arduino\hardware\mbed_portenta\4.1.3
+Using core 'arduino' from platform in folder: C:\Users\Ali Jahangiri\AppData\Local\Arduino15\packages\arduino\hardware\mbed_portenta\4.1.3
+
+Detecting libraries used...
+C:\Users\Ali Jahangiri\AppData\Local\Arduino15\packages\arduino\tools\arm-none-eabi-gcc\7-2017q4/bin/arm-none-eabi-g++ -c -w -g3 -nostdlib @C:\Users\Ali Jahangiri\AppData\Local\Arduino15\packages\arduino\hardware\mbed_portenta\4.1.3\variants\PORTENTA_H7_M7/defines.txt @C:\Users\Ali Jahangiri\AppData\Local\Arduino15\packages\arduino\hardware\mbed_portenta\4.1.3\variants\PORTENTA_H7_M7/cxxflags.txt -mcpu=cortex-m7 -mfloat-abi=softfp -mfpu=fpv5-d16 -w -x c++ -E -CC -DARDUINO=10607 -DARDUINO_PORTENTA_H7_M7 -DARDUINO_ARCH_MBED_PORTENTA -DARDUINO_ARCH_MBED -DARDUINO_LIBRARY_DISCOVERY_PHASE=1 -IC:\Users\Ali Jahangiri\AppData\Local\Arduino15\packages\arduino\hardware\mbed_portenta\4.1.3\cores\arduino -IC:\Users\Ali Jahangiri\AppData\Local\Arduino15\packages\arduino\hardware\mbed_portenta\4.1.3\variants\PORTENTA_H7_M7 -DCM4_BINARY_START=0x08100000 -DCM4_BINARY_END=0x08200000 -IC:\Users\Ali Jahangiri\AppData\Local\Arduino15\packages\arduino\hardware\mbed_portenta\4.1.3\cores\arduino/api/deprecated -IC:\Users\Ali Jahangiri\AppData\Local\Arduino15\packages\arduino\hardware\mbed_portenta\4.1.3\cores\arduino/api/deprecated-avr-comp -iprefixC:\Users\Ali Jahangiri\AppData\Local\Arduino15\packages\arduino\hardware\mbed_portenta\4.1.3\cores\arduino @C:\Users\Ali Jahangiri\AppData\Local\Arduino15\packages\arduino\hardware\mbed_portenta\4.1.3\variants\PORTENTA_H7_M7/../PORTENTA_H7_M7/includes.txt C:\Users\Ali Jahangiri\AppData\Local\Temp\arduino\sketches\B2BA2E09544B6CA45C04920ABDE1657F\sketch\MID-EMEA-H7-001-Example-SendSMS.ino.cpp -o nul
+Alternatives for ArduinoCellular.h: [Arduino_Cellular@1.1.0]
+ResolveLibrary(ArduinoCellular.h)
+  -> candidates: [Arduino_Cellular@1.1.0]
+C:\Users\Ali Jahangiri\AppData\Local\Arduino15\packages\arduino\tools\arm-none-eabi-gcc\7-2017q4/bin/arm-none-eabi-g++ -c -w -g3 -nostdlib @C:\Users\Ali Jahangiri\AppData\Local\Arduino15\packages\arduino\hardware\mbed_portenta\4.1.3\variants\PORTENTA_H7_M7/defines.txt @C:\Users\Ali Jahangiri\AppData\Local\Arduino15\packages\arduino\hardware\mbed_portenta\4.1.3\variants\PORTENTA_H7_M7/cxxflags.txt -mcpu=cortex-m7 -mfloat-abi=softfp -mfpu=fpv5-d16 -w -x c++ -E -CC -DARDUINO=10607 -DARDUINO_PORTENTA_H7_M7 -DARDUINO_ARCH_MBED_PORTENTA -DARDUINO_ARCH_MBED -DARDUINO_LIBRARY_DISCOVERY_PHASE=1 -IC:\Users\Ali Jahangiri\AppData\Local\Arduino15\packages\arduino\hardware\mbed_portenta\4.1.3\cores\arduino -IC:\Users\Ali Jahangiri\AppData\Local\Arduino15\packages\arduino\hardware\mbed_portenta\4.1.3\variants\PORTENTA_H7_M7 -Ic:\Users\Ali Jahangiri\Documents\Arduino\libraries\Arduino_Cellular\src -DCM4_BINARY_START=0x08100000 -DCM4_BINARY_END=0x08200000 -IC:\Users\Ali Jahangiri\AppData\Local\Arduino15\packages\arduino\hardware\mbed_portenta\4.1.3\cores\arduino/api/deprecated -IC:\Users\Ali Jahangiri\AppData\Local\Arduino15\packages\arduino\hardware\mbed_portenta\4.1.3\cores\arduino/api/deprecated-avr-comp -iprefixC:\Users\Ali Jahangiri\AppData\Local\Arduino15\packages\arduino\hardware\mbed_portenta\4.1.3\cores\arduino @C:\Users\Ali Jahangiri\AppData\Local\Arduino15\packages\arduino\hardware\mbed_portenta\4.1.3\variants\PORTENTA_H7_M7/../PORTENTA_H7_M7/includes.txt C:\Users\Ali Jahangiri\AppData\Local\Temp\arduino\sketches\B2BA2E09544B6CA45C04920ABDE1657F\sketch\MID-EMEA-H7-001-Example-SendSMS.ino.cpp -o nul
+Alternatives for ArduinoBearSSL.h: [ArduinoBearSSL@1.7.3]
+ResolveLibrary(ArduinoBearSSL.h)
+  -> candidates: [ArduinoBearSSL@1.7.3]
+C:\Users\Ali Jahangiri\AppData\Local\Arduino15\packages\arduino\tools\arm-none-eabi-gcc\7-2017q4/bin/arm-none-eabi-g++ -c -w -g3 -nostdlib @C:\Users\Ali Jahangiri\AppData\Local\Arduino15\packages\arduino\hardware\mbed_portenta\4.1.3\variants\PORTENTA_H7_M7/defines.txt @C:\Users\Ali Jahangiri\AppData\Local\Arduino15\packages\arduino\hardware\mbed_portenta\4.1.3\variants\PORTENTA_H7_M7/cxxflags.txt -mcpu=cortex-m7 -mfloat-abi=softfp -mfpu=fpv5-d16 -w -x c++ -E -CC -DARDUINO=10607 -DARDUINO_PORTENTA_H7_M7 -DARDUINO_ARCH_MBED_PORTENTA -DARDUINO_ARCH_MBED -DARDUINO_LIBRARY_DISCOVERY_PHASE=1 -IC:\Users\Ali Jahangiri\AppData\Local\Arduino15\packages\arduino\hardware\mbed_portenta\4.1.3\cores\arduino -IC:\Users\Ali Jahangiri\AppData\Local\Arduino15\packages\arduino\hardware\mbed_portenta\4.1.3\variants\PORTENTA_H7_M7 -Ic:\Users\Ali Jahangiri\Documents\Arduino\libraries\Arduino_Cellular\src -Ic:\Users\Ali Jahangiri\Documents\Arduino\libraries\ArduinoBearSSL\src -DCM4_BINARY_START=0x08100000 -DCM4_BINARY_END=0x08200000 -IC:\Users\Ali Jahangiri\AppData\Local\Arduino15\packages\arduino\hardware\mbed_portenta\4.1.3\cores\arduino/api/deprecated -IC:\Users\Ali Jahangiri\AppData\Local\Arduino15\packages\arduino\hardware\mbed_portenta\4.1.3\cores\arduino/api/deprecated-avr-comp -iprefixC:\Users\Ali Jahangiri\AppData\Local\Arduino15\packages\arduino\hardware\mbed_portenta\4.1.3\cores\arduino @C:\Users\Ali Jahangiri\AppData\Local\Arduino15\packages\arduino\hardware\mbed_portenta\4.1.3\variants\PORTENTA_H7_M7/../PORTENTA_H7_M7/includes.txt C:\Users\Ali Jahangiri\AppData\Local\Temp\arduino\sketches\B2BA2E09544B6CA45C04920ABDE1657F\sketch\MID-EMEA-H7-001-Example-SendSMS.ino.cpp -o nul
+Alternatives for StreamDebugger.h: [StreamDebugger@1.0.1]
+ResolveLibrary(StreamDebugger.h)
+  -> candidates: [StreamDebugger@1.0.1]
+C:\Users\Ali Jahangiri\AppData\Local\Arduino15\packages\arduino\tools\arm-none-eabi-gcc\7-2017q4/bin/arm-none-eabi-g++ -c -w -g3 -nostdlib @C:\Users\Ali Jahangiri\AppData\Local\Arduino15\packages\arduino\hardware\mbed_portenta\4.1.3\variants\PORTENTA_H7_M7/defines.txt @C:\Users\Ali Jahangiri\AppData\Local\Arduino15\packages\arduino\hardware\mbed_portenta\4.1.3\variants\PORTENTA_H7_M7/cxxflags.txt -mcpu=cortex-m7 -mfloat-abi=softfp -mfpu=fpv5-d16 -w -x c++ -E -CC -DARDUINO=10607 -DARDUINO_PORTENTA_H7_M7 -DARDUINO_ARCH_MBED_PORTENTA -DARDUINO_ARCH_MBED -DARDUINO_LIBRARY_DISCOVERY_PHASE=1 -IC:\Users\Ali Jahangiri\AppData\Local\Arduino15\packages\arduino\hardware\mbed_portenta\4.1.3\cores\arduino -IC:\Users\Ali Jahangiri\AppData\Local\Arduino15\packages\arduino\hardware\mbed_portenta\4.1.3\variants\PORTENTA_H7_M7 -Ic:\Users\Ali Jahangiri\Documents\Arduino\libraries\Arduino_Cellular\src -Ic:\Users\Ali Jahangiri\Documents\Arduino\libraries\ArduinoBearSSL\src -Ic:\Users\Ali Jahangiri\Documents\Arduino\libraries\StreamDebugger -DCM4_BINARY_START=0x08100000 -DCM4_BINARY_END=0x08200000 -IC:\Users\Ali Jahangiri\AppData\Local\Arduino15\packages\arduino\hardware\mbed_portenta\4.1.3\cores\arduino/api/deprecated -IC:\Users\Ali Jahangiri\AppData\Local\Arduino15\packages\arduino\hardware\mbed_portenta\4.1.3\cores\arduino/api/deprecated-avr-comp -iprefixC:\Users\Ali Jahangiri\AppData\Local\Arduino15\packages\arduino\hardware\mbed_portenta\4.1.3\cores\arduino @C:\Users\Ali Jahangiri\AppData\Local\Arduino15\packages\arduino\hardware\mbed_portenta\4.1.3\variants\PORTENTA_H7_M7/../PORTENTA_H7_M7/includes.txt C:\Users\Ali Jahangiri\AppData\Local\Temp\arduino\sketches\B2BA2E09544B6CA45C04920ABDE1657F\sketch\MID-EMEA-H7-001-Example-SendSMS.ino.cpp -o nul
+Alternatives for TinyGsmClient.h: [TinyGSM@0.11.7]
+ResolveLibrary(TinyGsmClient.h)
+  -> candidates: [TinyGSM@0.11.7]
+C:\Users\Ali Jahangiri\AppData\Local\Arduino15\packages\arduino\tools\arm-none-eabi-gcc\7-2017q4/bin/arm-none-eabi-g++ -c -w -g3 -nostdlib @C:\Users\Ali Jahangiri\AppData\Local\Arduino15\packages\arduino\hardware\mbed_portenta\4.1.3\variants\PORTENTA_H7_M7/defines.txt @C:\Users\Ali Jahangiri\AppData\Local\Arduino15\packages\arduino\hardware\mbed_portenta\4.1.3\variants\PORTENTA_H7_M7/cxxflags.txt -mcpu=cortex-m7 -mfloat-abi=softfp -mfpu=fpv5-d16 -w -x c++ -E -CC -DARDUINO=10607 -DARDUINO_PORTENTA_H7_M7 -DARDUINO_ARCH_MBED_PORTENTA -DARDUINO_ARCH_MBED -DARDUINO_LIBRARY_DISCOVERY_PHASE=1 -IC:\Users\Ali Jahangiri\AppData\Local\Arduino15\packages\arduino\hardware\mbed_portenta\4.1.3\cores\arduino -IC:\Users\Ali Jahangiri\AppData\Local\Arduino15\packages\arduino\hardware\mbed_portenta\4.1.3\variants\PORTENTA_H7_M7 -Ic:\Users\Ali Jahangiri\Documents\Arduino\libraries\Arduino_Cellular\src -Ic:\Users\Ali Jahangiri\Documents\Arduino\libraries\ArduinoBearSSL\src -Ic:\Users\Ali Jahangiri\Documents\Arduino\libraries\StreamDebugger -Ic:\Users\Ali Jahangiri\Documents\Arduino\libraries\TinyGSM\src -DCM4_BINARY_START=0x08100000 -DCM4_BINARY_END=0x08200000 -IC:\Users\Ali Jahangiri\AppData\Local\Arduino15\packages\arduino\hardware\mbed_portenta\4.1.3\cores\arduino/api/deprecated -IC:\Users\Ali Jahangiri\AppData\Local\Arduino15\packages\arduino\hardware\mbed_portenta\4.1.3\cores\arduino/api/deprecated-avr-comp -iprefixC:\Users\Ali Jahangiri\AppData\Local\Arduino15\packages\arduino\hardware\mbed_portenta\4.1.3\cores\arduino @C:\Users\Ali Jahangiri\AppData\Local\Arduino15\packages\arduino\hardware\mbed_portenta\4.1.3\variants\PORTENTA_H7_M7/../PORTENTA_H7_M7/includes.txt C:\Users\Ali Jahangiri\AppData\Local\Temp\arduino\sketches\B2BA2E09544B6CA45C04920ABDE1657F\sketch\MID-EMEA-H7-001-Example-SendSMS.ino.cpp -o nul
+Alternatives for ArduinoHttpClient.h: [ArduinoHttpClient@0.6.0]
+ResolveLibrary(ArduinoHttpClient.h)
+  -> candidates: [ArduinoHttpClient@0.6.0]
+C:\Users\Ali Jahangiri\AppData\Local\Arduino15\packages\arduino\tools\arm-none-eabi-gcc\7-2017q4/bin/arm-none-eabi-g++ -c -w -g3 -nostdlib @C:\Users\Ali Jahangiri\AppData\Local\Arduino15\packages\arduino\hardware\mbed_portenta\4.1.3\variants\PORTENTA_H7_M7/defines.txt @C:\Users\Ali Jahangiri\AppData\Local\Arduino15\packages\arduino\hardware\mbed_portenta\4.1.3\variants\PORTENTA_H7_M7/cxxflags.txt -mcpu=cortex-m7 -mfloat-abi=softfp -mfpu=fpv5-d16 -w -x c++ -E -CC -DARDUINO=10607 -DARDUINO_PORTENTA_H7_M7 -DARDUINO_ARCH_MBED_PORTENTA -DARDUINO_ARCH_MBED -DARDUINO_LIBRARY_DISCOVERY_PHASE=1 -IC:\Users\Ali Jahangiri\AppData\Local\Arduino15\packages\arduino\hardware\mbed_portenta\4.1.3\cores\arduino -IC:\Users\Ali Jahangiri\AppData\Local\Arduino15\packages\arduino\hardware\mbed_portenta\4.1.3\variants\PORTENTA_H7_M7 -Ic:\Users\Ali Jahangiri\Documents\Arduino\libraries\Arduino_Cellular\src -Ic:\Users\Ali Jahangiri\Documents\Arduino\libraries\ArduinoBearSSL\src -Ic:\Users\Ali Jahangiri\Documents\Arduino\libraries\StreamDebugger -Ic:\Users\Ali Jahangiri\Documents\Arduino\libraries\TinyGSM\src -Ic:\Users\Ali Jahangiri\Documents\Arduino\libraries\ArduinoHttpClient\src -DCM4_BINARY_START=0x08100000 -DCM4_BINARY_END=0x08200000 -IC:\Users\Ali Jahangiri\AppData\Local\Arduino15\packages\arduino\hardware\mbed_portenta\4.1.3\cores\arduino/api/deprecated -IC:\Users\Ali Jahangiri\AppData\Local\Arduino15\packages\arduino\hardware\mbed_portenta\4.1.3\cores\arduino/api/deprecated-avr-comp -iprefixC:\Users\Ali Jahangiri\AppData\Local\Arduino15\packages\arduino\hardware\mbed_portenta\4.1.3\cores\arduino @C:\Users\Ali Jahangiri\AppData\Local\Arduino15\packages\arduino\hardware\mbed_portenta\4.1.3\variants\PORTENTA_H7_M7/../PORTENTA_H7_M7/includes.txt C:\Users\Ali Jahangiri\AppData\Local\Temp\arduino\sketches\B2BA2E09544B6CA45C04920ABDE1657F\sketch\MID-EMEA-H7-001-Example-SendSMS.ino.cpp -o nul
+Using cached library dependencies for file: c:\Users\Ali Jahangiri\Documents\Arduino\libraries\Arduino_Cellular\src\ArduinoCellular.cpp
+Using cached library dependencies for file: c:\Users\Ali Jahangiri\Documents\Arduino\libraries\Arduino_Cellular\src\ModemInterface.cpp
+Using cached library dependencies for file: c:\Users\Ali Jahangiri\Documents\Arduino\libraries\ArduinoBearSSL\src\AES128.cpp
+Using cached library dependencies for file: c:\Users\Ali Jahangiri\Documents\Arduino\libraries\ArduinoBearSSL\src\ArduinoBearSSL.cpp
+Using cached library dependencies for file: c:\Users\Ali Jahangiri\Documents\Arduino\libraries\ArduinoBearSSL\src\BearSSLClient.cpp
+Using cached library dependencies for file: c:\Users\Ali Jahangiri\Documents\Arduino\libraries\ArduinoBearSSL\src\DES.cpp
+Using cached library dependencies for file: c:\Users\Ali Jahangiri\Documents\Arduino\libraries\ArduinoBearSSL\src\Encryption.cpp
+Using cached library dependencies for file: c:\Users\Ali Jahangiri\Documents\Arduino\libraries\ArduinoBearSSL\src\MD5.cpp
+Using cached library dependencies for file: c:\Users\Ali Jahangiri\Documents\Arduino\libraries\ArduinoBearSSL\src\SHA.cpp
+Using cached library dependencies for file: c:\Users\Ali Jahangiri\Documents\Arduino\libraries\ArduinoBearSSL\src\SHA1.cpp
+Using cached library dependencies for file: c:\Users\Ali Jahangiri\Documents\Arduino\libraries\ArduinoBearSSL\src\SHA256.cpp
+Using cached library dependencies for file: c:\Users\Ali Jahangiri\Documents\Arduino\libraries\ArduinoBearSSL\src\bearssl\aes_big_cbcdec.c
+Using cached library dependencies for file: c:\Users\Ali Jahangiri\Documents\Arduino\libraries\ArduinoBearSSL\src\bearssl\aes_big_cbcenc.c
+Using cached library dependencies for file: c:\Users\Ali Jahangiri\Documents\Arduino\libraries\ArduinoBearSSL\src\bearssl\aes_big_ctr.c
+Using cached library dependencies for file: c:\Users\Ali Jahangiri\Documents\Arduino\libraries\ArduinoBearSSL\src\bearssl\aes_big_ctrcbc.c
+Using cached library dependencies for file: c:\Users\Ali Jahangiri\Documents\Arduino\libraries\ArduinoBearSSL\src\bearssl\aes_big_dec.c
+Using cached library dependencies for file: c:\Users\Ali Jahangiri\Documents\Arduino\libraries\ArduinoBearSSL\src\bearssl\aes_big_enc.c
+Using cached library dependencies for file: c:\Users\Ali Jahangiri\Documents\Arduino\libraries\ArduinoBearSSL\src\bearssl\aes_common.c
+Using cached library dependencies for file: c:\Users\Ali Jahangiri\Documents\Arduino\libraries\ArduinoBearSSL\src\bearssl\aes_ct.c
+Using cached library dependencies for file: c:\Users\Ali Jahangiri\Documents\Arduino\libraries\ArduinoBearSSL\src\bearssl\aes_ct64.c
+Using cached library dependencies for file: c:\Users\Ali Jahangiri\Documents\Arduino\libraries\ArduinoBearSSL\src\bearssl\aes_ct64_cbcdec.c
+Using cached library dependencies for file: c:\Users\Ali Jahangiri\Documents\Arduino\libraries\ArduinoBearSSL\src\bearssl\aes_ct64_cbcenc.c
+Using cached library dependencies for file: c:\Users\Ali Jahangiri\Documents\Arduino\libraries\ArduinoBearSSL\src\bearssl\aes_ct64_ctr.c
+Using cached library dependencies for file: c:\Users\Ali Jahangiri\Documents\Arduino\libraries\ArduinoBearSSL\src\bearssl\aes_ct64_ctrcbc.c
+Using cached library dependencies for file: c:\Users\Ali Jahangiri\Documents\Arduino\libraries\ArduinoBearSSL\src\bearssl\aes_ct64_dec.c
+Using cached library dependencies for file: c:\Users\Ali Jahangiri\Documents\Arduino\libraries\ArduinoBearSSL\src\bearssl\aes_ct64_enc.c
+Using cached library dependencies for file: c:\Users\Ali Jahangiri\Documents\Arduino\libraries\ArduinoBearSSL\src\bearssl\aes_ct_cbcdec.c
+Using cached library dependencies for file: c:\Users\Ali Jahangiri\Documents\Arduino\libraries\ArduinoBearSSL\src\bearssl\aes_ct_cbcenc.c
+Using cached library dependencies for file: c:\Users\Ali Jahangiri\Documents\Arduino\libraries\ArduinoBearSSL\src\bearssl\aes_ct_ctr.c
+Using cached library dependencies for file: c:\Users\Ali Jahangiri\Documents\Arduino\libraries\ArduinoBearSSL\src\bearssl\aes_ct_ctrcbc.c
+Using cached library dependencies for file: c:\Users\Ali Jahangiri\Documents\Arduino\libraries\ArduinoBearSSL\src\bearssl\aes_ct_dec.c
+Using cached library dependencies for file: c:\Users\Ali Jahangiri\Documents\Arduino\libraries\ArduinoBearSSL\src\bearssl\aes_ct_enc.c
+Using cached library dependencies for file: c:\Users\Ali Jahangiri\Documents\Arduino\libraries\ArduinoBearSSL\src\bearssl\aes_pwr8.c
+Using cached library dependencies for file: c:\Users\Ali Jahangiri\Documents\Arduino\libraries\ArduinoBearSSL\src\bearssl\aes_pwr8_cbcdec.c
+Using cached library dependencies for file: c:\Users\Ali Jahangiri\Documents\Arduino\libraries\ArduinoBearSSL\src\bearssl\aes_pwr8_cbcenc.c
+Using cached library dependencies for file: c:\Users\Ali Jahangiri\Documents\Arduino\libraries\ArduinoBearSSL\src\bearssl\aes_pwr8_ctr.c
+Using cached library dependencies for file: c:\Users\Ali Jahangiri\Documents\Arduino\libraries\ArduinoBearSSL\src\bearssl\aes_pwr8_ctrcbc.c
+Using cached library dependencies for file: c:\Users\Ali Jahangiri\Documents\Arduino\libraries\ArduinoBearSSL\src\bearssl\aes_small_cbcdec.c
+Using cached library dependencies for file: c:\Users\Ali Jahangiri\Documents\Arduino\libraries\ArduinoBearSSL\src\bearssl\aes_small_cbcenc.c
+Using cached library dependencies for file: c:\Users\Ali Jahangiri\Documents\Arduino\libraries\ArduinoBearSSL\src\bearssl\aes_small_ctr.c
+Using cached library dependencies for file: c:\Users\Ali Jahangiri\Documents\Arduino\libraries\ArduinoBearSSL\src\bearssl\aes_small_ctrcbc.c
+Using cached library dependencies for file: c:\Users\Ali Jahangiri\Documents\Arduino\libraries\ArduinoBearSSL\src\bearssl\aes_small_dec.c
+Using cached library dependencies for file: c:\Users\Ali Jahangiri\Documents\Arduino\libraries\ArduinoBearSSL\src\bearssl\aes_small_enc.c
+Using cached library dependencies for file: c:\Users\Ali Jahangiri\Documents\Arduino\libraries\ArduinoBearSSL\src\bearssl\aes_x86ni.c
+Using cached library dependencies for file: c:\Users\Ali Jahangiri\Documents\Arduino\libraries\ArduinoBearSSL\src\bearssl\aes_x86ni_cbcdec.c
+Using cached library dependencies for file: c:\Users\Ali Jahangiri\Documents\Arduino\libraries\ArduinoBearSSL\src\bearssl\aes_x86ni_cbcenc.c
+Using cached library dependencies for file: c:\Users\Ali Jahangiri\Documents\Arduino\libraries\ArduinoBearSSL\src\bearssl\aes_x86ni_ctr.c
+Using cached library dependencies for file: c:\Users\Ali Jahangiri\Documents\Arduino\libraries\ArduinoBearSSL\src\bearssl\aesctr_drbg.c
+Using cached library dependencies for file: c:\Users\Ali Jahangiri\Documents\Arduino\libraries\ArduinoBearSSL\src\bearssl\asn1enc.c
+Using cached library dependencies for file: c:\Users\Ali Jahangiri\Documents\Arduino\libraries\ArduinoBearSSL\src\bearssl\ccm.c
+Using cached library dependencies for file: c:\Users\Ali Jahangiri\Documents\Arduino\libraries\ArduinoBearSSL\src\bearssl\ccopy.c
+Using cached library dependencies for file: c:\Users\Ali Jahangiri\Documents\Arduino\libraries\ArduinoBearSSL\src\bearssl\chacha20_ct.c
+Using cached library dependencies for file: c:\Users\Ali Jahangiri\Documents\Arduino\libraries\ArduinoBearSSL\src\bearssl\chacha20_sse2.c
+Using cached library dependencies for file: c:\Users\Ali Jahangiri\Documents\Arduino\libraries\ArduinoBearSSL\src\bearssl\dec16be.c
+Using cached library dependencies for file: c:\Users\Ali Jahangiri\Documents\Arduino\libraries\ArduinoBearSSL\src\bearssl\dec16le.c
+Using cached library dependencies for file: c:\Users\Ali Jahangiri\Documents\Arduino\libraries\ArduinoBearSSL\src\bearssl\dec32be.c
+Using cached library dependencies for file: c:\Users\Ali Jahangiri\Documents\Arduino\libraries\ArduinoBearSSL\src\bearssl\dec32le.c
+Using cached library dependencies for file: c:\Users\Ali Jahangiri\Documents\Arduino\libraries\ArduinoBearSSL\src\bearssl\dec64be.c
+Using cached library dependencies for file: c:\Users\Ali Jahangiri\Documents\Arduino\libraries\ArduinoBearSSL\src\bearssl\dec64le.c
+Using cached library dependencies for file: c:\Users\Ali Jahangiri\Documents\Arduino\libraries\ArduinoBearSSL\src\bearssl\des_ct.c
+Using cached library dependencies for file: c:\Users\Ali Jahangiri\Documents\Arduino\libraries\ArduinoBearSSL\src\bearssl\des_ct_cbcdec.c
+Using cached library dependencies for file: c:\Users\Ali Jahangiri\Documents\Arduino\libraries\ArduinoBearSSL\src\bearssl\des_ct_cbcenc.c
+Using cached library dependencies for file: c:\Users\Ali Jahangiri\Documents\Arduino\libraries\ArduinoBearSSL\src\bearssl\des_support.c
+Using cached library dependencies for file: c:\Users\Ali Jahangiri\Documents\Arduino\libraries\ArduinoBearSSL\src\bearssl\des_tab.c
+Using cached library dependencies for file: c:\Users\Ali Jahangiri\Documents\Arduino\libraries\ArduinoBearSSL\src\bearssl\des_tab_cbcdec.c
+Using cached library dependencies for file: c:\Users\Ali Jahangiri\Documents\Arduino\libraries\ArduinoBearSSL\src\bearssl\des_tab_cbcenc.c
+Using cached library dependencies for file: c:\Users\Ali Jahangiri\Documents\Arduino\libraries\ArduinoBearSSL\src\bearssl\dig_oid.c
+Using cached library dependencies for file: c:\Users\Ali Jahangiri\Documents\Arduino\libraries\ArduinoBearSSL\src\bearssl\dig_size.c
+Using cached library dependencies for file: c:\Users\Ali Jahangiri\Documents\Arduino\libraries\ArduinoBearSSL\src\bearssl\eax.c
+Using cached library dependencies for file: c:\Users\Ali Jahangiri\Documents\Arduino\libraries\ArduinoBearSSL\src\bearssl\ec_all_m15.c
+Using cached library dependencies for file: c:\Users\Ali Jahangiri\Documents\Arduino\libraries\ArduinoBearSSL\src\bearssl\ec_all_m31.c
+Using cached library dependencies for file: c:\Users\Ali Jahangiri\Documents\Arduino\libraries\ArduinoBearSSL\src\bearssl\ec_c25519_i15.c
+Using cached library dependencies for file: c:\Users\Ali Jahangiri\Documents\Arduino\libraries\ArduinoBearSSL\src\bearssl\ec_c25519_i31.c
+Using cached library dependencies for file: c:\Users\Ali Jahangiri\Documents\Arduino\libraries\ArduinoBearSSL\src\bearssl\ec_c25519_m15.c
+Using cached library dependencies for file: c:\Users\Ali Jahangiri\Documents\Arduino\libraries\ArduinoBearSSL\src\bearssl\ec_c25519_m31.c
+Using cached library dependencies for file: c:\Users\Ali Jahangiri\Documents\Arduino\libraries\ArduinoBearSSL\src\bearssl\ec_curve25519.c
+Using cached library dependencies for file: c:\Users\Ali Jahangiri\Documents\Arduino\libraries\ArduinoBearSSL\src\bearssl\ec_default.c
+Using cached library dependencies for file: c:\Users\Ali Jahangiri\Documents\Arduino\libraries\ArduinoBearSSL\src\bearssl\ec_keygen.c
+Using cached library dependencies for file: c:\Users\Ali Jahangiri\Documents\Arduino\libraries\ArduinoBearSSL\src\bearssl\ec_p256_m15.c
+Using cached library dependencies for file: c:\Users\Ali Jahangiri\Documents\Arduino\libraries\ArduinoBearSSL\src\bearssl\ec_p256_m31.c
+Using cached library dependencies for file: c:\Users\Ali Jahangiri\Documents\Arduino\libraries\ArduinoBearSSL\src\bearssl\ec_prime_i15.c
+Using cached library dependencies for file: c:\Users\Ali Jahangiri\Documents\Arduino\libraries\ArduinoBearSSL\src\bearssl\ec_prime_i31.c
+Using cached library dependencies for file: c:\Users\Ali Jahangiri\Documents\Arduino\libraries\ArduinoBearSSL\src\bearssl\ec_pubkey.c
+Using cached library dependencies for file: c:\Users\Ali Jahangiri\Documents\Arduino\libraries\ArduinoBearSSL\src\bearssl\ec_secp256r1.c
+Using cached library dependencies for file: c:\Users\Ali Jahangiri\Documents\Arduino\libraries\ArduinoBearSSL\src\bearssl\ec_secp384r1.c
+Using cached library dependencies for file: c:\Users\Ali Jahangiri\Documents\Arduino\libraries\ArduinoBearSSL\src\bearssl\ec_secp521r1.c
+Using cached library dependencies for file: c:\Users\Ali Jahangiri\Documents\Arduino\libraries\ArduinoBearSSL\src\bearssl\ecdsa_atr.c
+Using cached library dependencies for file: c:\Users\Ali Jahangiri\Documents\Arduino\libraries\ArduinoBearSSL\src\bearssl\ecdsa_default_sign_asn1.c
+Using cached library dependencies for file: c:\Users\Ali Jahangiri\Documents\Arduino\libraries\ArduinoBearSSL\src\bearssl\ecdsa_default_sign_raw.c
+Using cached library dependencies for file: c:\Users\Ali Jahangiri\Documents\Arduino\libraries\ArduinoBearSSL\src\bearssl\ecdsa_default_vrfy_asn1.c
+Using cached library dependencies for file: c:\Users\Ali Jahangiri\Documents\Arduino\libraries\ArduinoBearSSL\src\bearssl\ecdsa_default_vrfy_raw.c
+Using cached library dependencies for file: c:\Users\Ali Jahangiri\Documents\Arduino\libraries\ArduinoBearSSL\src\bearssl\ecdsa_i15_bits.c
+Using cached library dependencies for file: c:\Users\Ali Jahangiri\Documents\Arduino\libraries\ArduinoBearSSL\src\bearssl\ecdsa_i15_sign_asn1.c
+Using cached library dependencies for file: c:\Users\Ali Jahangiri\Documents\Arduino\libraries\ArduinoBearSSL\src\bearssl\ecdsa_i15_sign_raw.c
+Using cached library dependencies for file: c:\Users\Ali Jahangiri\Documents\Arduino\libraries\ArduinoBearSSL\src\bearssl\ecdsa_i15_vrfy_asn1.c
+Using cached library dependencies for file: c:\Users\Ali Jahangiri\Documents\Arduino\libraries\ArduinoBearSSL\src\bearssl\ecdsa_i15_vrfy_raw.c
+Using cached library dependencies for file: c:\Users\Ali Jahangiri\Documents\Arduino\libraries\ArduinoBearSSL\src\bearssl\ecdsa_i31_bits.c
+Using cached library dependencies for file: c:\Users\Ali Jahangiri\Documents\Arduino\libraries\ArduinoBearSSL\src\bearssl\ecdsa_i31_sign_asn1.c
+Using cached library dependencies for file: c:\Users\Ali Jahangiri\Documents\Arduino\libraries\ArduinoBearSSL\src\bearssl\ecdsa_i31_sign_raw.c
+Using cached library dependencies for file: c:\Users\Ali Jahangiri\Documents\Arduino\libraries\ArduinoBearSSL\src\bearssl\ecdsa_i31_vrfy_asn1.c
+Using cached library dependencies for file: c:\Users\Ali Jahangiri\Documents\Arduino\libraries\ArduinoBearSSL\src\bearssl\ecdsa_i31_vrfy_raw.c
+Using cached library dependencies for file: c:\Users\Ali Jahangiri\Documents\Arduino\libraries\ArduinoBearSSL\src\bearssl\ecdsa_rta.c
+Using cached library dependencies for file: c:\Users\Ali Jahangiri\Documents\Arduino\libraries\ArduinoBearSSL\src\bearssl\enc16be.c
+Using cached library dependencies for file: c:\Users\Ali Jahangiri\Documents\Arduino\libraries\ArduinoBearSSL\src\bearssl\enc16le.c
+Using cached library dependencies for file: c:\Users\Ali Jahangiri\Documents\Arduino\libraries\ArduinoBearSSL\src\bearssl\enc32be.c
+Using cached library dependencies for file: c:\Users\Ali Jahangiri\Documents\Arduino\libraries\ArduinoBearSSL\src\bearssl\enc32le.c
+Using cached library dependencies for file: c:\Users\Ali Jahangiri\Documents\Arduino\libraries\ArduinoBearSSL\src\bearssl\enc64be.c
+Using cached library dependencies for file: c:\Users\Ali Jahangiri\Documents\Arduino\libraries\ArduinoBearSSL\src\bearssl\enc64le.c
+Using cached library dependencies for file: c:\Users\Ali Jahangiri\Documents\Arduino\libraries\ArduinoBearSSL\src\bearssl\encode_ec_pk8der.c
+Using cached library dependencies for file: c:\Users\Ali Jahangiri\Documents\Arduino\libraries\ArduinoBearSSL\src\bearssl\encode_ec_rawder.c
+Using cached library dependencies for file: c:\Users\Ali Jahangiri\Documents\Arduino\libraries\ArduinoBearSSL\src\bearssl\encode_rsa_pk8der.c
+Using cached library dependencies for file: c:\Users\Ali Jahangiri\Documents\Arduino\libraries\ArduinoBearSSL\src\bearssl\encode_rsa_rawder.c
+Using cached library dependencies for file: c:\Users\Ali Jahangiri\Documents\Arduino\libraries\ArduinoBearSSL\src\bearssl\gcm.c
+Using cached library dependencies for file: c:\Users\Ali Jahangiri\Documents\Arduino\libraries\ArduinoBearSSL\src\bearssl\ghash_ctmul.c
+Using cached library dependencies for file: c:\Users\Ali Jahangiri\Documents\Arduino\libraries\ArduinoBearSSL\src\bearssl\ghash_ctmul32.c
+Using cached library dependencies for file: c:\Users\Ali Jahangiri\Documents\Arduino\libraries\ArduinoBearSSL\src\bearssl\ghash_ctmul64.c
+Using cached library dependencies for file: c:\Users\Ali Jahangiri\Documents\Arduino\libraries\ArduinoBearSSL\src\bearssl\ghash_pclmul.c
+Using cached library dependencies for file: c:\Users\Ali Jahangiri\Documents\Arduino\libraries\ArduinoBearSSL\src\bearssl\ghash_pwr8.c
+Using cached library dependencies for file: c:\Users\Ali Jahangiri\Documents\Arduino\libraries\ArduinoBearSSL\src\bearssl\hkdf.c
+Using cached library dependencies for file: c:\Users\Ali Jahangiri\Documents\Arduino\libraries\ArduinoBearSSL\src\bearssl\hmac.c
+Using cached library dependencies for file: c:\Users\Ali Jahangiri\Documents\Arduino\libraries\ArduinoBearSSL\src\bearssl\hmac_ct.c
+Using cached library dependencies for file: c:\Users\Ali Jahangiri\Documents\Arduino\libraries\ArduinoBearSSL\src\bearssl\hmac_drbg.c
+Using cached library dependencies for file: c:\Users\Ali Jahangiri\Documents\Arduino\libraries\ArduinoBearSSL\src\bearssl\i15_add.c
+Using cached library dependencies for file: c:\Users\Ali Jahangiri\Documents\Arduino\libraries\ArduinoBearSSL\src\bearssl\i15_bitlen.c
+Using cached library dependencies for file: c:\Users\Ali Jahangiri\Documents\Arduino\libraries\ArduinoBearSSL\src\bearssl\i15_decmod.c
+Using cached library dependencies for file: c:\Users\Ali Jahangiri\Documents\Arduino\libraries\ArduinoBearSSL\src\bearssl\i15_decode.c
+Using cached library dependencies for file: c:\Users\Ali Jahangiri\Documents\Arduino\libraries\ArduinoBearSSL\src\bearssl\i15_decred.c
+Using cached library dependencies for file: c:\Users\Ali Jahangiri\Documents\Arduino\libraries\ArduinoBearSSL\src\bearssl\i15_encode.c
+Using cached library dependencies for file: c:\Users\Ali Jahangiri\Documents\Arduino\libraries\ArduinoBearSSL\src\bearssl\i15_fmont.c
+Using cached library dependencies for file: c:\Users\Ali Jahangiri\Documents\Arduino\libraries\ArduinoBearSSL\src\bearssl\i15_iszero.c
+Using cached library dependencies for file: c:\Users\Ali Jahangiri\Documents\Arduino\libraries\ArduinoBearSSL\src\bearssl\i15_moddiv.c
+Using cached library dependencies for file: c:\Users\Ali Jahangiri\Documents\Arduino\libraries\ArduinoBearSSL\src\bearssl\i15_modpow.c
+Using cached library dependencies for file: c:\Users\Ali Jahangiri\Documents\Arduino\libraries\ArduinoBearSSL\src\bearssl\i15_modpow2.c
+Using cached library dependencies for file: c:\Users\Ali Jahangiri\Documents\Arduino\libraries\ArduinoBearSSL\src\bearssl\i15_montmul.c
+Using cached library dependencies for file: c:\Users\Ali Jahangiri\Documents\Arduino\libraries\ArduinoBearSSL\src\bearssl\i15_mulacc.c
+Using cached library dependencies for file: c:\Users\Ali Jahangiri\Documents\Arduino\libraries\ArduinoBearSSL\src\bearssl\i15_muladd.c
+Using cached library dependencies for file: c:\Users\Ali Jahangiri\Documents\Arduino\libraries\ArduinoBearSSL\src\bearssl\i15_ninv15.c
+Using cached library dependencies for file: c:\Users\Ali Jahangiri\Documents\Arduino\libraries\ArduinoBearSSL\src\bearssl\i15_reduce.c
+Using cached library dependencies for file: c:\Users\Ali Jahangiri\Documents\Arduino\libraries\ArduinoBearSSL\src\bearssl\i15_rshift.c
+Using cached library dependencies for file: c:\Users\Ali Jahangiri\Documents\Arduino\libraries\ArduinoBearSSL\src\bearssl\i15_sub.c
+Using cached library dependencies for file: c:\Users\Ali Jahangiri\Documents\Arduino\libraries\ArduinoBearSSL\src\bearssl\i15_tmont.c
+Using cached library dependencies for file: c:\Users\Ali Jahangiri\Documents\Arduino\libraries\ArduinoBearSSL\src\bearssl\i31_add.c
+Using cached library dependencies for file: c:\Users\Ali Jahangiri\Documents\Arduino\libraries\ArduinoBearSSL\src\bearssl\i31_bitlen.c
+Using cached library dependencies for file: c:\Users\Ali Jahangiri\Documents\Arduino\libraries\ArduinoBearSSL\src\bearssl\i31_decmod.c
+Using cached library dependencies for file: c:\Users\Ali Jahangiri\Documents\Arduino\libraries\ArduinoBearSSL\src\bearssl\i31_decode.c
+Using cached library dependencies for file: c:\Users\Ali Jahangiri\Documents\Arduino\libraries\ArduinoBearSSL\src\bearssl\i31_decred.c
+Using cached library dependencies for file: c:\Users\Ali Jahangiri\Documents\Arduino\libraries\ArduinoBearSSL\src\bearssl\i31_encode.c
+Using cached library dependencies for file: c:\Users\Ali Jahangiri\Documents\Arduino\libraries\ArduinoBearSSL\src\bearssl\i31_fmont.c
+Using cached library dependencies for file: c:\Users\Ali Jahangiri\Documents\Arduino\libraries\ArduinoBearSSL\src\bearssl\i31_iszero.c
+Using cached library dependencies for file: c:\Users\Ali Jahangiri\Documents\Arduino\libraries\ArduinoBearSSL\src\bearssl\i31_moddiv.c
+Using cached library dependencies for file: c:\Users\Ali Jahangiri\Documents\Arduino\libraries\ArduinoBearSSL\src\bearssl\i31_modpow.c
+Using cached library dependencies for file: c:\Users\Ali Jahangiri\Documents\Arduino\libraries\ArduinoBearSSL\src\bearssl\i31_modpow2.c
+Using cached library dependencies for file: c:\Users\Ali Jahangiri\Documents\Arduino\libraries\ArduinoBearSSL\src\bearssl\i31_montmul.c
+Using cached library dependencies for file: c:\Users\Ali Jahangiri\Documents\Arduino\libraries\ArduinoBearSSL\src\bearssl\i31_mulacc.c
+Using cached library dependencies for file: c:\Users\Ali Jahangiri\Documents\Arduino\libraries\ArduinoBearSSL\src\bearssl\i31_muladd.c
+Using cached library dependencies for file: c:\Users\Ali Jahangiri\Documents\Arduino\libraries\ArduinoBearSSL\src\bearssl\i31_ninv31.c
+Using cached library dependencies for file: c:\Users\Ali Jahangiri\Documents\Arduino\libraries\ArduinoBearSSL\src\bearssl\i31_reduce.c
+Using cached library dependencies for file: c:\Users\Ali Jahangiri\Documents\Arduino\libraries\ArduinoBearSSL\src\bearssl\i31_rshift.c
+Using cached library dependencies for file: c:\Users\Ali Jahangiri\Documents\Arduino\libraries\ArduinoBearSSL\src\bearssl\i31_sub.c
+Using cached library dependencies for file: c:\Users\Ali Jahangiri\Documents\Arduino\libraries\ArduinoBearSSL\src\bearssl\i31_tmont.c
+Using cached library dependencies for file: c:\Users\Ali Jahangiri\Documents\Arduino\libraries\ArduinoBearSSL\src\bearssl\i32_add.c
+Using cached library dependencies for file: c:\Users\Ali Jahangiri\Documents\Arduino\libraries\ArduinoBearSSL\src\bearssl\i32_bitlen.c
+Using cached library dependencies for file: c:\Users\Ali Jahangiri\Documents\Arduino\libraries\ArduinoBearSSL\src\bearssl\i32_decmod.c
+Using cached library dependencies for file: c:\Users\Ali Jahangiri\Documents\Arduino\libraries\ArduinoBearSSL\src\bearssl\i32_decode.c
+Using cached library dependencies for file: c:\Users\Ali Jahangiri\Documents\Arduino\libraries\ArduinoBearSSL\src\bearssl\i32_decred.c
+Using cached library dependencies for file: c:\Users\Ali Jahangiri\Documents\Arduino\libraries\ArduinoBearSSL\src\bearssl\i32_div32.c
+Using cached library dependencies for file: c:\Users\Ali Jahangiri\Documents\Arduino\libraries\ArduinoBearSSL\src\bearssl\i32_encode.c
+Using cached library dependencies for file: c:\Users\Ali Jahangiri\Documents\Arduino\libraries\ArduinoBearSSL\src\bearssl\i32_fmont.c
+Using cached library dependencies for file: c:\Users\Ali Jahangiri\Documents\Arduino\libraries\ArduinoBearSSL\src\bearssl\i32_iszero.c
+Using cached library dependencies for file: c:\Users\Ali Jahangiri\Documents\Arduino\libraries\ArduinoBearSSL\src\bearssl\i32_modpow.c
+Using cached library dependencies for file: c:\Users\Ali Jahangiri\Documents\Arduino\libraries\ArduinoBearSSL\src\bearssl\i32_montmul.c
+Using cached library dependencies for file: c:\Users\Ali Jahangiri\Documents\Arduino\libraries\ArduinoBearSSL\src\bearssl\i32_mulacc.c
+Using cached library dependencies for file: c:\Users\Ali Jahangiri\Documents\Arduino\libraries\ArduinoBearSSL\src\bearssl\i32_muladd.c
+Using cached library dependencies for file: c:\Users\Ali Jahangiri\Documents\Arduino\libraries\ArduinoBearSSL\src\bearssl\i32_ninv32.c
+Using cached library dependencies for file: c:\Users\Ali Jahangiri\Documents\Arduino\libraries\ArduinoBearSSL\src\bearssl\i32_reduce.c
+Using cached library dependencies for file: c:\Users\Ali Jahangiri\Documents\Arduino\libraries\ArduinoBearSSL\src\bearssl\i32_sub.c
+Using cached library dependencies for file: c:\Users\Ali Jahangiri\Documents\Arduino\libraries\ArduinoBearSSL\src\bearssl\i32_tmont.c
+Using cached library dependencies for file: c:\Users\Ali Jahangiri\Documents\Arduino\libraries\ArduinoBearSSL\src\bearssl\i62_modpow2.c
+Using cached library dependencies for file: c:\Users\Ali Jahangiri\Documents\Arduino\libraries\ArduinoBearSSL\src\bearssl\md5.c
+Using cached library dependencies for file: c:\Users\Ali Jahangiri\Documents\Arduino\libraries\ArduinoBearSSL\src\bearssl\md5sha1.c
+Using cached library dependencies for file: c:\Users\Ali Jahangiri\Documents\Arduino\libraries\ArduinoBearSSL\src\bearssl\mgf1.c
+Using cached library dependencies for file: c:\Users\Ali Jahangiri\Documents\Arduino\libraries\ArduinoBearSSL\src\bearssl\multihash.c
+Using cached library dependencies for file: c:\Users\Ali Jahangiri\Documents\Arduino\libraries\ArduinoBearSSL\src\bearssl\pemdec.c
+Using cached library dependencies for file: c:\Users\Ali Jahangiri\Documents\Arduino\libraries\ArduinoBearSSL\src\bearssl\pemenc.c
+Using cached library dependencies for file: c:\Users\Ali Jahangiri\Documents\Arduino\libraries\ArduinoBearSSL\src\bearssl\poly1305_ctmul.c
+Using cached library dependencies for file: c:\Users\Ali Jahangiri\Documents\Arduino\libraries\ArduinoBearSSL\src\bearssl\poly1305_ctmul32.c
+Using cached library dependencies for file: c:\Users\Ali Jahangiri\Documents\Arduino\libraries\ArduinoBearSSL\src\bearssl\poly1305_ctmulq.c
+Using cached library dependencies for file: c:\Users\Ali Jahangiri\Documents\Arduino\libraries\ArduinoBearSSL\src\bearssl\poly1305_i15.c
+Using cached library dependencies for file: c:\Users\Ali Jahangiri\Documents\Arduino\libraries\ArduinoBearSSL\src\bearssl\prf.c
+Using cached library dependencies for file: c:\Users\Ali Jahangiri\Documents\Arduino\libraries\ArduinoBearSSL\src\bearssl\prf_md5sha1.c
+Using cached library dependencies for file: c:\Users\Ali Jahangiri\Documents\Arduino\libraries\ArduinoBearSSL\src\bearssl\prf_sha256.c
+Using cached library dependencies for file: c:\Users\Ali Jahangiri\Documents\Arduino\libraries\ArduinoBearSSL\src\bearssl\prf_sha384.c
+Using cached library dependencies for file: c:\Users\Ali Jahangiri\Documents\Arduino\libraries\ArduinoBearSSL\src\bearssl\rsa_default_keygen.c
+Using cached library dependencies for file: c:\Users\Ali Jahangiri\Documents\Arduino\libraries\ArduinoBearSSL\src\bearssl\rsa_default_modulus.c
+Using cached library dependencies for file: c:\Users\Ali Jahangiri\Documents\Arduino\libraries\ArduinoBearSSL\src\bearssl\rsa_default_oaep_decrypt.c
+Using cached library dependencies for file: c:\Users\Ali Jahangiri\Documents\Arduino\libraries\ArduinoBearSSL\src\bearssl\rsa_default_oaep_encrypt.c
+Using cached library dependencies for file: c:\Users\Ali Jahangiri\Documents\Arduino\libraries\ArduinoBearSSL\src\bearssl\rsa_default_pkcs1_sign.c
+Using cached library dependencies for file: c:\Users\Ali Jahangiri\Documents\Arduino\libraries\ArduinoBearSSL\src\bearssl\rsa_default_pkcs1_vrfy.c
+Using cached library dependencies for file: c:\Users\Ali Jahangiri\Documents\Arduino\libraries\ArduinoBearSSL\src\bearssl\rsa_default_priv.c
+Using cached library dependencies for file: c:\Users\Ali Jahangiri\Documents\Arduino\libraries\ArduinoBearSSL\src\bearssl\rsa_default_privexp.c
+Using cached library dependencies for file: c:\Users\Ali Jahangiri\Documents\Arduino\libraries\ArduinoBearSSL\src\bearssl\rsa_default_pub.c
+Using cached library dependencies for file: c:\Users\Ali Jahangiri\Documents\Arduino\libraries\ArduinoBearSSL\src\bearssl\rsa_default_pubexp.c
+Using cached library dependencies for file: c:\Users\Ali Jahangiri\Documents\Arduino\libraries\ArduinoBearSSL\src\bearssl\rsa_i15_keygen.c
+Using cached library dependencies for file: c:\Users\Ali Jahangiri\Documents\Arduino\libraries\ArduinoBearSSL\src\bearssl\rsa_i15_modulus.c
+Using cached library dependencies for file: c:\Users\Ali Jahangiri\Documents\Arduino\libraries\ArduinoBearSSL\src\bearssl\rsa_i15_oaep_decrypt.c
+Using cached library dependencies for file: c:\Users\Ali Jahangiri\Documents\Arduino\libraries\ArduinoBearSSL\src\bearssl\rsa_i15_oaep_encrypt.c
+Using cached library dependencies for file: c:\Users\Ali Jahangiri\Documents\Arduino\libraries\ArduinoBearSSL\src\bearssl\rsa_i15_pkcs1_sign.c
+Using cached library dependencies for file: c:\Users\Ali Jahangiri\Documents\Arduino\libraries\ArduinoBearSSL\src\bearssl\rsa_i15_pkcs1_vrfy.c
+Using cached library dependencies for file: c:\Users\Ali Jahangiri\Documents\Arduino\libraries\ArduinoBearSSL\src\bearssl\rsa_i15_priv.c
+Using cached library dependencies for file: c:\Users\Ali Jahangiri\Documents\Arduino\libraries\ArduinoBearSSL\src\bearssl\rsa_i15_privexp.c
+Using cached library dependencies for file: c:\Users\Ali Jahangiri\Documents\Arduino\libraries\ArduinoBearSSL\src\bearssl\rsa_i15_pub.c
+Using cached library dependencies for file: c:\Users\Ali Jahangiri\Documents\Arduino\libraries\ArduinoBearSSL\src\bearssl\rsa_i15_pubexp.c
+Using cached library dependencies for file: c:\Users\Ali Jahangiri\Documents\Arduino\libraries\ArduinoBearSSL\src\bearssl\rsa_i31_keygen.c
+Using cached library dependencies for file: c:\Users\Ali Jahangiri\Documents\Arduino\libraries\ArduinoBearSSL\src\bearssl\rsa_i31_keygen_inner.c
+Using cached library dependencies for file: c:\Users\Ali Jahangiri\Documents\Arduino\libraries\ArduinoBearSSL\src\bearssl\rsa_i31_modulus.c
+Using cached library dependencies for file: c:\Users\Ali Jahangiri\Documents\Arduino\libraries\ArduinoBearSSL\src\bearssl\rsa_i31_oaep_decrypt.c
+Using cached library dependencies for file: c:\Users\Ali Jahangiri\Documents\Arduino\libraries\ArduinoBearSSL\src\bearssl\rsa_i31_oaep_encrypt.c
+Using cached library dependencies for file: c:\Users\Ali Jahangiri\Documents\Arduino\libraries\ArduinoBearSSL\src\bearssl\rsa_i31_pkcs1_sign.c
+Using cached library dependencies for file: c:\Users\Ali Jahangiri\Documents\Arduino\libraries\ArduinoBearSSL\src\bearssl\rsa_i31_pkcs1_vrfy.c
+Using cached library dependencies for file: c:\Users\Ali Jahangiri\Documents\Arduino\libraries\ArduinoBearSSL\src\bearssl\rsa_i31_priv.c
+Using cached library dependencies for file: c:\Users\Ali Jahangiri\Documents\Arduino\libraries\ArduinoBearSSL\src\bearssl\rsa_i31_privexp.c
+Using cached library dependencies for file: c:\Users\Ali Jahangiri\Documents\Arduino\libraries\ArduinoBearSSL\src\bearssl\rsa_i31_pub.c
+Using cached library dependencies for file: c:\Users\Ali Jahangiri\Documents\Arduino\libraries\ArduinoBearSSL\src\bearssl\rsa_i31_pubexp.c
+Using cached library dependencies for file: c:\Users\Ali Jahangiri\Documents\Arduino\libraries\ArduinoBearSSL\src\bearssl\rsa_i32_oaep_decrypt.c
+Using cached library dependencies for file: c:\Users\Ali Jahangiri\Documents\Arduino\libraries\ArduinoBearSSL\src\bearssl\rsa_i32_oaep_encrypt.c
+Using cached library dependencies for file: c:\Users\Ali Jahangiri\Documents\Arduino\libraries\ArduinoBearSSL\src\bearssl\rsa_i32_pkcs1_sign.c
+Using cached library dependencies for file: c:\Users\Ali Jahangiri\Documents\Arduino\libraries\ArduinoBearSSL\src\bearssl\rsa_i32_pkcs1_vrfy.c
+Using cached library dependencies for file: c:\Users\Ali Jahangiri\Documents\Arduino\libraries\ArduinoBearSSL\src\bearssl\rsa_i32_priv.c
+Using cached library dependencies for file: c:\Users\Ali Jahangiri\Documents\Arduino\libraries\ArduinoBearSSL\src\bearssl\rsa_i32_pub.c
+Using cached library dependencies for file: c:\Users\Ali Jahangiri\Documents\Arduino\libraries\ArduinoBearSSL\src\bearssl\rsa_i62_keygen.c
+Using cached library dependencies for file: c:\Users\Ali Jahangiri\Documents\Arduino\libraries\ArduinoBearSSL\src\bearssl\rsa_i62_oaep_decrypt.c
+Using cached library dependencies for file: c:\Users\Ali Jahangiri\Documents\Arduino\libraries\ArduinoBearSSL\src\bearssl\rsa_i62_oaep_encrypt.c
+Using cached library dependencies for file: c:\Users\Ali Jahangiri\Documents\Arduino\libraries\ArduinoBearSSL\src\bearssl\rsa_i62_pkcs1_sign.c
+Using cached library dependencies for file: c:\Users\Ali Jahangiri\Documents\Arduino\libraries\ArduinoBearSSL\src\bearssl\rsa_i62_pkcs1_vrfy.c
+Using cached library dependencies for file: c:\Users\Ali Jahangiri\Documents\Arduino\libraries\ArduinoBearSSL\src\bearssl\rsa_i62_priv.c
+Using cached library dependencies for file: c:\Users\Ali Jahangiri\Documents\Arduino\libraries\ArduinoBearSSL\src\bearssl\rsa_i62_pub.c
+Using cached library dependencies for file: c:\Users\Ali Jahangiri\Documents\Arduino\libraries\ArduinoBearSSL\src\bearssl\rsa_oaep_pad.c
+Using cached library dependencies for file: c:\Users\Ali Jahangiri\Documents\Arduino\libraries\ArduinoBearSSL\src\bearssl\rsa_oaep_unpad.c
+Using cached library dependencies for file: c:\Users\Ali Jahangiri\Documents\Arduino\libraries\ArduinoBearSSL\src\bearssl\rsa_pkcs1_sig_pad.c
+Using cached library dependencies for file: c:\Users\Ali Jahangiri\Documents\Arduino\libraries\ArduinoBearSSL\src\bearssl\rsa_pkcs1_sig_unpad.c
+Using cached library dependencies for file: c:\Users\Ali Jahangiri\Documents\Arduino\libraries\ArduinoBearSSL\src\bearssl\rsa_ssl_decrypt.c
+Using cached library dependencies for file: c:\Users\Ali Jahangiri\Documents\Arduino\libraries\ArduinoBearSSL\src\bearssl\settings.c
+Using cached library dependencies for file: c:\Users\Ali Jahangiri\Documents\Arduino\libraries\ArduinoBearSSL\src\bearssl\sha1.c
+Using cached library dependencies for file: c:\Users\Ali Jahangiri\Documents\Arduino\libraries\ArduinoBearSSL\src\bearssl\sha2big.c
+Using cached library dependencies for file: c:\Users\Ali Jahangiri\Documents\Arduino\libraries\ArduinoBearSSL\src\bearssl\sha2small.c
+Using cached library dependencies for file: c:\Users\Ali Jahangiri\Documents\Arduino\libraries\ArduinoBearSSL\src\bearssl\skey_decoder.c
+Using cached library dependencies for file: c:\Users\Ali Jahangiri\Documents\Arduino\libraries\ArduinoBearSSL\src\bearssl\ssl_ccert_single_ec.c
+Using cached library dependencies for file: c:\Users\Ali Jahangiri\Documents\Arduino\libraries\ArduinoBearSSL\src\bearssl\ssl_ccert_single_rsa.c
+Using cached library dependencies for file: c:\Users\Ali Jahangiri\Documents\Arduino\libraries\ArduinoBearSSL\src\bearssl\ssl_client.c
+Using cached library dependencies for file: c:\Users\Ali Jahangiri\Documents\Arduino\libraries\ArduinoBearSSL\src\bearssl\ssl_client_default_rsapub.c
+Using cached library dependencies for file: c:\Users\Ali Jahangiri\Documents\Arduino\libraries\ArduinoBearSSL\src\bearssl\ssl_client_full.c
+Using cached library dependencies for file: c:\Users\Ali Jahangiri\Documents\Arduino\libraries\ArduinoBearSSL\src\bearssl\ssl_engine.c
+Using cached library dependencies for file: c:\Users\Ali Jahangiri\Documents\Arduino\libraries\ArduinoBearSSL\src\bearssl\ssl_engine_default_aescbc.c
+Using cached library dependencies for file: c:\Users\Ali Jahangiri\Documents\Arduino\libraries\ArduinoBearSSL\src\bearssl\ssl_engine_default_aesccm.c
+Using cached library dependencies for file: c:\Users\Ali Jahangiri\Documents\Arduino\libraries\ArduinoBearSSL\src\bearssl\ssl_engine_default_aesgcm.c
+Using cached library dependencies for file: c:\Users\Ali Jahangiri\Documents\Arduino\libraries\ArduinoBearSSL\src\bearssl\ssl_engine_default_chapol.c
+Using cached library dependencies for file: c:\Users\Ali Jahangiri\Documents\Arduino\libraries\ArduinoBearSSL\src\bearssl\ssl_engine_default_descbc.c
+Using cached library dependencies for file: c:\Users\Ali Jahangiri\Documents\Arduino\libraries\ArduinoBearSSL\src\bearssl\ssl_engine_default_ec.c
+Using cached library dependencies for file: c:\Users\Ali Jahangiri\Documents\Arduino\libraries\ArduinoBearSSL\src\bearssl\ssl_engine_default_ecdsa.c
+Using cached library dependencies for file: c:\Users\Ali Jahangiri\Documents\Arduino\libraries\ArduinoBearSSL\src\bearssl\ssl_engine_default_rsavrfy.c
+Using cached library dependencies for file: c:\Users\Ali Jahangiri\Documents\Arduino\libraries\ArduinoBearSSL\src\bearssl\ssl_hashes.c
+Using cached library dependencies for file: c:\Users\Ali Jahangiri\Documents\Arduino\libraries\ArduinoBearSSL\src\bearssl\ssl_hs_client.c
+Using cached library dependencies for file: c:\Users\Ali Jahangiri\Documents\Arduino\libraries\ArduinoBearSSL\src\bearssl\ssl_hs_server.c
+Using cached library dependencies for file: c:\Users\Ali Jahangiri\Documents\Arduino\libraries\ArduinoBearSSL\src\bearssl\ssl_io.c
+Using cached library dependencies for file: c:\Users\Ali Jahangiri\Documents\Arduino\libraries\ArduinoBearSSL\src\bearssl\ssl_keyexport.c
+Using cached library dependencies for file: c:\Users\Ali Jahangiri\Documents\Arduino\libraries\ArduinoBearSSL\src\bearssl\ssl_lru.c
+Using cached library dependencies for file: c:\Users\Ali Jahangiri\Documents\Arduino\libraries\ArduinoBearSSL\src\bearssl\ssl_rec_cbc.c
+Using cached library dependencies for file: c:\Users\Ali Jahangiri\Documents\Arduino\libraries\ArduinoBearSSL\src\bearssl\ssl_rec_ccm.c
+Using cached library dependencies for file: c:\Users\Ali Jahangiri\Documents\Arduino\libraries\ArduinoBearSSL\src\bearssl\ssl_rec_chapol.c
+Using cached library dependencies for file: c:\Users\Ali Jahangiri\Documents\Arduino\libraries\ArduinoBearSSL\src\bearssl\ssl_rec_gcm.c
+Using cached library dependencies for file: c:\Users\Ali Jahangiri\Documents\Arduino\libraries\ArduinoBearSSL\src\bearssl\ssl_scert_single_ec.c
+Using cached library dependencies for file: c:\Users\Ali Jahangiri\Documents\Arduino\libraries\ArduinoBearSSL\src\bearssl\ssl_scert_single_rsa.c
+Using cached library dependencies for file: c:\Users\Ali Jahangiri\Documents\Arduino\libraries\ArduinoBearSSL\src\bearssl\ssl_server.c
+Using cached library dependencies for file: c:\Users\Ali Jahangiri\Documents\Arduino\libraries\ArduinoBearSSL\src\bearssl\ssl_server_full_ec.c
+Using cached library dependencies for file: c:\Users\Ali Jahangiri\Documents\Arduino\libraries\ArduinoBearSSL\src\bearssl\ssl_server_full_rsa.c
+Using cached library dependencies for file: c:\Users\Ali Jahangiri\Documents\Arduino\libraries\ArduinoBearSSL\src\bearssl\ssl_server_mine2c.c
+Using cached library dependencies for file: c:\Users\Ali Jahangiri\Documents\Arduino\libraries\ArduinoBearSSL\src\bearssl\ssl_server_mine2g.c
+Using cached library dependencies for file: c:\Users\Ali Jahangiri\Documents\Arduino\libraries\ArduinoBearSSL\src\bearssl\ssl_server_minf2c.c
+Using cached library dependencies for file: c:\Users\Ali Jahangiri\Documents\Arduino\libraries\ArduinoBearSSL\src\bearssl\ssl_server_minf2g.c
+Using cached library dependencies for file: c:\Users\Ali Jahangiri\Documents\Arduino\libraries\ArduinoBearSSL\src\bearssl\ssl_server_minr2g.c
+Using cached library dependencies for file: c:\Users\Ali Jahangiri\Documents\Arduino\libraries\ArduinoBearSSL\src\bearssl\ssl_server_minu2g.c
+Using cached library dependencies for file: c:\Users\Ali Jahangiri\Documents\Arduino\libraries\ArduinoBearSSL\src\bearssl\ssl_server_minv2g.c
+Using cached library dependencies for file: c:\Users\Ali Jahangiri\Documents\Arduino\libraries\ArduinoBearSSL\src\bearssl\sysrng.c
+Using cached library dependencies for file: c:\Users\Ali Jahangiri\Documents\Arduino\libraries\ArduinoBearSSL\src\bearssl\x509_decoder.c
+Using cached library dependencies for file: c:\Users\Ali Jahangiri\Documents\Arduino\libraries\ArduinoBearSSL\src\bearssl\x509_knownkey.c
+Using cached library dependencies for file: c:\Users\Ali Jahangiri\Documents\Arduino\libraries\ArduinoBearSSL\src\bearssl\x509_minimal.c
+Using cached library dependencies for file: c:\Users\Ali Jahangiri\Documents\Arduino\libraries\ArduinoBearSSL\src\bearssl\x509_minimal_full.c
+Using cached library dependencies for file: c:\Users\Ali Jahangiri\Documents\Arduino\libraries\ArduinoBearSSL\src\utility\eccX08_sign_asn1.cpp
+Using cached library dependencies for file: c:\Users\Ali Jahangiri\Documents\Arduino\libraries\ArduinoBearSSL\src\utility\eccX08_vrfy_asn1.cpp
+Using cached library dependencies for file: c:\Users\Ali Jahangiri\Documents\Arduino\libraries\ArduinoHttpClient\src\HttpClient.cpp
+Using cached library dependencies for file: c:\Users\Ali Jahangiri\Documents\Arduino\libraries\ArduinoHttpClient\src\URLEncoder.cpp
+Using cached library dependencies for file: c:\Users\Ali Jahangiri\Documents\Arduino\libraries\ArduinoHttpClient\src\WebSocketClient.cpp
+Using cached library dependencies for file: c:\Users\Ali Jahangiri\Documents\Arduino\libraries\ArduinoHttpClient\src\b64.cpp
+Using cached library dependencies for file: c:\Users\Ali Jahangiri\Documents\Arduino\libraries\ArduinoHttpClient\src\utility\URLParser\http_parser.c
+Generating function prototypes...
+C:\Users\Ali Jahangiri\AppData\Local\Arduino15\packages\arduino\tools\arm-none-eabi-gcc\7-2017q4/bin/arm-none-eabi-g++ -c -w -g3 -nostdlib @C:\Users\Ali Jahangiri\AppData\Local\Arduino15\packages\arduino\hardware\mbed_portenta\4.1.3\variants\PORTENTA_H7_M7/defines.txt @C:\Users\Ali Jahangiri\AppData\Local\Arduino15\packages\arduino\hardware\mbed_portenta\4.1.3\variants\PORTENTA_H7_M7/cxxflags.txt -mcpu=cortex-m7 -mfloat-abi=softfp -mfpu=fpv5-d16 -w -x c++ -E -CC -DARDUINO=10607 -DARDUINO_PORTENTA_H7_M7 -DARDUINO_ARCH_MBED_PORTENTA -DARDUINO_ARCH_MBED -DARDUINO_LIBRARY_DISCOVERY_PHASE=1 -IC:\Users\Ali Jahangiri\AppData\Local\Arduino15\packages\arduino\hardware\mbed_portenta\4.1.3\cores\arduino -IC:\Users\Ali Jahangiri\AppData\Local\Arduino15\packages\arduino\hardware\mbed_portenta\4.1.3\variants\PORTENTA_H7_M7 -Ic:\Users\Ali Jahangiri\Documents\Arduino\libraries\Arduino_Cellular\src -Ic:\Users\Ali Jahangiri\Documents\Arduino\libraries\ArduinoBearSSL\src -Ic:\Users\Ali Jahangiri\Documents\Arduino\libraries\StreamDebugger -Ic:\Users\Ali Jahangiri\Documents\Arduino\libraries\TinyGSM\src -Ic:\Users\Ali Jahangiri\Documents\Arduino\libraries\ArduinoHttpClient\src -DCM4_BINARY_START=0x08100000 -DCM4_BINARY_END=0x08200000 -IC:\Users\Ali Jahangiri\AppData\Local\Arduino15\packages\arduino\hardware\mbed_portenta\4.1.3\cores\arduino/api/deprecated -IC:\Users\Ali Jahangiri\AppData\Local\Arduino15\packages\arduino\hardware\mbed_portenta\4.1.3\cores\arduino/api/deprecated-avr-comp -iprefixC:\Users\Ali Jahangiri\AppData\Local\Arduino15\packages\arduino\hardware\mbed_portenta\4.1.3\cores\arduino @C:\Users\Ali Jahangiri\AppData\Local\Arduino15\packages\arduino\hardware\mbed_portenta\4.1.3\variants\PORTENTA_H7_M7/../PORTENTA_H7_M7/includes.txt C:\Users\Ali Jahangiri\AppData\Local\Temp\arduino\sketches\B2BA2E09544B6CA45C04920ABDE1657F\sketch\MID-EMEA-H7-001-Example-SendSMS.ino.cpp -o C:\Users\Ali Jahangiri\AppData\Local\Temp\3786429637\sketch_merged.cpp
+C:\Users\Ali Jahangiri\AppData\Local\Arduino15\packages\builtin\tools\ctags\5.8-arduino11/ctags -u --language-force=c++ -f - --c++-kinds=svpf --fields=KSTtzns --line-directives C:\Users\Ali Jahangiri\AppData\Local\Temp\3786429637\sketch_merged.cpp
+Compiling sketch...
+"C:\\Users\\Ali Jahangiri\\AppData\\Local\\Arduino15\\packages\\arduino\\tools\\arm-none-eabi-gcc\\7-2017q4/bin/arm-none-eabi-g++" -c -w -g3 -nostdlib "@C:\\Users\\Ali Jahangiri\\AppData\\Local\\Arduino15\\packages\\arduino\\hardware\\mbed_portenta\\4.1.3\\variants\\PORTENTA_H7_M7/defines.txt" "@C:\\Users\\Ali Jahangiri\\AppData\\Local\\Arduino15\\packages\\arduino\\hardware\\mbed_portenta\\4.1.3\\variants\\PORTENTA_H7_M7/cxxflags.txt" -MMD -mcpu=cortex-m7 -mfloat-abi=softfp -mfpu=fpv5-d16 -DARDUINO=10607 -DARDUINO_PORTENTA_H7_M7 -DARDUINO_ARCH_MBED_PORTENTA -DARDUINO_ARCH_MBED -DARDUINO_LIBRARY_DISCOVERY_PHASE=0 "-IC:\\Users\\Ali Jahangiri\\AppData\\Local\\Arduino15\\packages\\arduino\\hardware\\mbed_portenta\\4.1.3\\cores\\arduino" "-IC:\\Users\\Ali Jahangiri\\AppData\\Local\\Arduino15\\packages\\arduino\\hardware\\mbed_portenta\\4.1.3\\variants\\PORTENTA_H7_M7" "-Ic:\\Users\\Ali Jahangiri\\Documents\\Arduino\\libraries\\Arduino_Cellular\\src" "-Ic:\\Users\\Ali Jahangiri\\Documents\\Arduino\\libraries\\ArduinoBearSSL\\src" "-Ic:\\Users\\Ali Jahangiri\\Documents\\Arduino\\libraries\\StreamDebugger" "-Ic:\\Users\\Ali Jahangiri\\Documents\\Arduino\\libraries\\TinyGSM\\src" "-Ic:\\Users\\Ali Jahangiri\\Documents\\Arduino\\libraries\\ArduinoHttpClient\\src" -DCM4_BINARY_START=0x08100000 -DCM4_BINARY_END=0x08200000 "-IC:\\Users\\Ali Jahangiri\\AppData\\Local\\Arduino15\\packages\\arduino\\hardware\\mbed_portenta\\4.1.3\\cores\\arduino/api/deprecated" "-IC:\\Users\\Ali Jahangiri\\AppData\\Local\\Arduino15\\packages\\arduino\\hardware\\mbed_portenta\\4.1.3\\cores\\arduino/api/deprecated-avr-comp" "-iprefixC:\\Users\\Ali Jahangiri\\AppData\\Local\\Arduino15\\packages\\arduino\\hardware\\mbed_portenta\\4.1.3\\cores\\arduino" "@C:\\Users\\Ali Jahangiri\\AppData\\Local\\Arduino15\\packages\\arduino\\hardware\\mbed_portenta\\4.1.3\\variants\\PORTENTA_H7_M7/../PORTENTA_H7_M7/includes.txt" "C:\\Users\\Ali Jahangiri\\AppData\\Local\\Temp\\arduino\\sketches\\B2BA2E09544B6CA45C04920ABDE1657F\\sketch\\MID-EMEA-H7-001-Example-SendSMS.ino.cpp" -o "C:\\Users\\Ali Jahangiri\\AppData\\Local\\Temp\\arduino\\sketches\\B2BA2E09544B6CA45C04920ABDE1657F\\sketch\\MID-EMEA-H7-001-Example-SendSMS.ino.cpp.o"
+Compiling libraries...
+Compiling library "Arduino_Cellular"
+Using previously compiled file: C:\Users\Ali Jahangiri\AppData\Local\Temp\arduino\sketches\B2BA2E09544B6CA45C04920ABDE1657F\libraries\Arduino_Cellular\ArduinoCellular.cpp.o
+Using previously compiled file: C:\Users\Ali Jahangiri\AppData\Local\Temp\arduino\sketches\B2BA2E09544B6CA45C04920ABDE1657F\libraries\Arduino_Cellular\ModemInterface.cpp.o
+Compiling library "ArduinoBearSSL"
+Using previously compiled file: C:\Users\Ali Jahangiri\AppData\Local\Temp\arduino\sketches\B2BA2E09544B6CA45C04920ABDE1657F\libraries\ArduinoBearSSL\bearssl\aes_common.c.o
+Using previously compiled file: C:\Users\Ali Jahangiri\AppData\Local\Temp\arduino\sketches\B2BA2E09544B6CA45C04920ABDE1657F\libraries\ArduinoBearSSL\bearssl\aes_big_cbcdec.c.o
+Using previously compiled file: C:\Users\Ali Jahangiri\AppData\Local\Temp\arduino\sketches\B2BA2E09544B6CA45C04920ABDE1657F\libraries\ArduinoBearSSL\bearssl\aes_ct.c.o
+Using previously compiled file: C:\Users\Ali Jahangiri\AppData\Local\Temp\arduino\sketches\B2BA2E09544B6CA45C04920ABDE1657F\libraries\ArduinoBearSSL\bearssl\aes_big_ctrcbc.c.o
+Using previously compiled file: C:\Users\Ali Jahangiri\AppData\Local\Temp\arduino\sketches\B2BA2E09544B6CA45C04920ABDE1657F\libraries\ArduinoBearSSL\bearssl\aes_big_dec.c.o
+Using previously compiled file: C:\Users\Ali Jahangiri\AppData\Local\Temp\arduino\sketches\B2BA2E09544B6CA45C04920ABDE1657F\libraries\ArduinoBearSSL\bearssl\aes_big_cbcenc.c.o
+Using previously compiled file: C:\Users\Ali Jahangiri\AppData\Local\Temp\arduino\sketches\B2BA2E09544B6CA45C04920ABDE1657F\libraries\ArduinoBearSSL\bearssl\aes_ct64_cbcdec.c.o
+Using previously compiled file: C:\Users\Ali Jahangiri\AppData\Local\Temp\arduino\sketches\B2BA2E09544B6CA45C04920ABDE1657F\libraries\ArduinoBearSSL\bearssl\aes_ct64.c.o
+Using previously compiled file: C:\Users\Ali Jahangiri\AppData\Local\Temp\arduino\sketches\B2BA2E09544B6CA45C04920ABDE1657F\libraries\ArduinoBearSSL\bearssl\aes_big_ctr.c.o
+Using previously compiled file: C:\Users\Ali Jahangiri\AppData\Local\Temp\arduino\sketches\B2BA2E09544B6CA45C04920ABDE1657F\libraries\ArduinoBearSSL\bearssl\aes_big_enc.c.o
+Using previously compiled file: C:\Users\Ali Jahangiri\AppData\Local\Temp\arduino\sketches\B2BA2E09544B6CA45C04920ABDE1657F\libraries\ArduinoBearSSL\bearssl\aes_ct64_ctr.c.o
+Using previously compiled file: C:\Users\Ali Jahangiri\AppData\Local\Temp\arduino\sketches\B2BA2E09544B6CA45C04920ABDE1657F\libraries\ArduinoBearSSL\bearssl\aes_ct64_dec.c.o
+Using previously compiled file: C:\Users\Ali Jahangiri\AppData\Local\Temp\arduino\sketches\B2BA2E09544B6CA45C04920ABDE1657F\libraries\ArduinoBearSSL\bearssl\aes_ct64_enc.c.o
+Using previously compiled file: C:\Users\Ali Jahangiri\AppData\Local\Temp\arduino\sketches\B2BA2E09544B6CA45C04920ABDE1657F\libraries\ArduinoBearSSL\bearssl\aes_ct64_cbcenc.c.o
+Using previously compiled file: C:\Users\Ali Jahangiri\AppData\Local\Temp\arduino\sketches\B2BA2E09544B6CA45C04920ABDE1657F\libraries\ArduinoBearSSL\bearssl\aes_ct64_ctrcbc.c.o
+Using previously compiled file: C:\Users\Ali Jahangiri\AppData\Local\Temp\arduino\sketches\B2BA2E09544B6CA45C04920ABDE1657F\libraries\ArduinoBearSSL\bearssl\aes_ct_cbcenc.c.o
+Using previously compiled file: C:\Users\Ali Jahangiri\AppData\Local\Temp\arduino\sketches\B2BA2E09544B6CA45C04920ABDE1657F\libraries\ArduinoBearSSL\bearssl\aes_ct_cbcdec.c.o
+Using previously compiled file: C:\Users\Ali Jahangiri\AppData\Local\Temp\arduino\sketches\B2BA2E09544B6CA45C04920ABDE1657F\libraries\ArduinoBearSSL\bearssl\aes_ct_ctrcbc.c.o
+Using previously compiled file: C:\Users\Ali Jahangiri\AppData\Local\Temp\arduino\sketches\B2BA2E09544B6CA45C04920ABDE1657F\libraries\ArduinoBearSSL\bearssl\aes_ct_ctr.c.o
+Using previously compiled file: C:\Users\Ali Jahangiri\AppData\Local\Temp\arduino\sketches\B2BA2E09544B6CA45C04920ABDE1657F\libraries\ArduinoBearSSL\bearssl\aes_ct_enc.c.o
+Using previously compiled file: C:\Users\Ali Jahangiri\AppData\Local\Temp\arduino\sketches\B2BA2E09544B6CA45C04920ABDE1657F\libraries\ArduinoBearSSL\bearssl\aes_ct_dec.c.o
+Using previously compiled file: C:\Users\Ali Jahangiri\AppData\Local\Temp\arduino\sketches\B2BA2E09544B6CA45C04920ABDE1657F\libraries\ArduinoBearSSL\bearssl\aes_pwr8.c.o
+Using previously compiled file: C:\Users\Ali Jahangiri\AppData\Local\Temp\arduino\sketches\B2BA2E09544B6CA45C04920ABDE1657F\libraries\ArduinoBearSSL\bearssl\aes_small_cbcdec.c.o
+Using previously compiled file: C:\Users\Ali Jahangiri\AppData\Local\Temp\arduino\sketches\B2BA2E09544B6CA45C04920ABDE1657F\libraries\ArduinoBearSSL\bearssl\aes_pwr8_cbcdec.c.o
+Using previously compiled file: C:\Users\Ali Jahangiri\AppData\Local\Temp\arduino\sketches\B2BA2E09544B6CA45C04920ABDE1657F\libraries\ArduinoBearSSL\bearssl\aes_pwr8_cbcenc.c.o
+Using previously compiled file: C:\Users\Ali Jahangiri\AppData\Local\Temp\arduino\sketches\B2BA2E09544B6CA45C04920ABDE1657F\libraries\ArduinoBearSSL\bearssl\aes_pwr8_ctrcbc.c.o
+Using previously compiled file: C:\Users\Ali Jahangiri\AppData\Local\Temp\arduino\sketches\B2BA2E09544B6CA45C04920ABDE1657F\libraries\ArduinoBearSSL\AES128.cpp.o
+Using previously compiled file: C:\Users\Ali Jahangiri\AppData\Local\Temp\arduino\sketches\B2BA2E09544B6CA45C04920ABDE1657F\libraries\ArduinoBearSSL\SHA.cpp.o
+Using previously compiled file: C:\Users\Ali Jahangiri\AppData\Local\Temp\arduino\sketches\B2BA2E09544B6CA45C04920ABDE1657F\libraries\ArduinoBearSSL\bearssl\aes_pwr8_ctr.c.o
+Using previously compiled file: C:\Users\Ali Jahangiri\AppData\Local\Temp\arduino\sketches\B2BA2E09544B6CA45C04920ABDE1657F\libraries\ArduinoBearSSL\SHA1.cpp.o
+Using previously compiled file: C:\Users\Ali Jahangiri\AppData\Local\Temp\arduino\sketches\B2BA2E09544B6CA45C04920ABDE1657F\libraries\ArduinoBearSSL\SHA256.cpp.o
+Using previously compiled file: C:\Users\Ali Jahangiri\AppData\Local\Temp\arduino\sketches\B2BA2E09544B6CA45C04920ABDE1657F\libraries\ArduinoBearSSL\bearssl\aes_small_ctr.c.o
+Using previously compiled file: C:\Users\Ali Jahangiri\AppData\Local\Temp\arduino\sketches\B2BA2E09544B6CA45C04920ABDE1657F\libraries\ArduinoBearSSL\bearssl\aes_small_cbcenc.c.o
+Using previously compiled file: C:\Users\Ali Jahangiri\AppData\Local\Temp\arduino\sketches\B2BA2E09544B6CA45C04920ABDE1657F\libraries\ArduinoBearSSL\BearSSLClient.cpp.o
+Using previously compiled file: C:\Users\Ali Jahangiri\AppData\Local\Temp\arduino\sketches\B2BA2E09544B6CA45C04920ABDE1657F\libraries\ArduinoBearSSL\DES.cpp.o
+Using previously compiled file: C:\Users\Ali Jahangiri\AppData\Local\Temp\arduino\sketches\B2BA2E09544B6CA45C04920ABDE1657F\libraries\ArduinoBearSSL\bearssl\aes_small_ctrcbc.c.o
+Using previously compiled file: C:\Users\Ali Jahangiri\AppData\Local\Temp\arduino\sketches\B2BA2E09544B6CA45C04920ABDE1657F\libraries\ArduinoBearSSL\MD5.cpp.o
+Using previously compiled file: C:\Users\Ali Jahangiri\AppData\Local\Temp\arduino\sketches\B2BA2E09544B6CA45C04920ABDE1657F\libraries\ArduinoBearSSL\Encryption.cpp.o
+Using previously compiled file: C:\Users\Ali Jahangiri\AppData\Local\Temp\arduino\sketches\B2BA2E09544B6CA45C04920ABDE1657F\libraries\ArduinoBearSSL\bearssl\aesctr_drbg.c.o
+Using previously compiled file: C:\Users\Ali Jahangiri\AppData\Local\Temp\arduino\sketches\B2BA2E09544B6CA45C04920ABDE1657F\libraries\ArduinoBearSSL\bearssl\aes_small_enc.c.o
+Using previously compiled file: C:\Users\Ali Jahangiri\AppData\Local\Temp\arduino\sketches\B2BA2E09544B6CA45C04920ABDE1657F\libraries\ArduinoBearSSL\bearssl\aes_x86ni.c.o
+Using previously compiled file: C:\Users\Ali Jahangiri\AppData\Local\Temp\arduino\sketches\B2BA2E09544B6CA45C04920ABDE1657F\libraries\ArduinoBearSSL\bearssl\aes_small_dec.c.o
+Using previously compiled file: C:\Users\Ali Jahangiri\AppData\Local\Temp\arduino\sketches\B2BA2E09544B6CA45C04920ABDE1657F\libraries\ArduinoBearSSL\ArduinoBearSSL.cpp.o
+Using previously compiled file: C:\Users\Ali Jahangiri\AppData\Local\Temp\arduino\sketches\B2BA2E09544B6CA45C04920ABDE1657F\libraries\ArduinoBearSSL\bearssl\aes_x86ni_cbcdec.c.o
+Using previously compiled file: C:\Users\Ali Jahangiri\AppData\Local\Temp\arduino\sketches\B2BA2E09544B6CA45C04920ABDE1657F\libraries\ArduinoBearSSL\bearssl\aes_x86ni_ctr.c.o
+Using previously compiled file: C:\Users\Ali Jahangiri\AppData\Local\Temp\arduino\sketches\B2BA2E09544B6CA45C04920ABDE1657F\libraries\ArduinoBearSSL\bearssl\aes_x86ni_cbcenc.c.o
+Using previously compiled file: C:\Users\Ali Jahangiri\AppData\Local\Temp\arduino\sketches\B2BA2E09544B6CA45C04920ABDE1657F\libraries\ArduinoBearSSL\bearssl\asn1enc.c.o
+Using previously compiled file: C:\Users\Ali Jahangiri\AppData\Local\Temp\arduino\sketches\B2BA2E09544B6CA45C04920ABDE1657F\libraries\ArduinoBearSSL\bearssl\dec64be.c.o
+Using previously compiled file: C:\Users\Ali Jahangiri\AppData\Local\Temp\arduino\sketches\B2BA2E09544B6CA45C04920ABDE1657F\libraries\ArduinoBearSSL\bearssl\chacha20_sse2.c.o
+Using previously compiled file: C:\Users\Ali Jahangiri\AppData\Local\Temp\arduino\sketches\B2BA2E09544B6CA45C04920ABDE1657F\libraries\ArduinoBearSSL\bearssl\chacha20_ct.c.o
+Using previously compiled file: C:\Users\Ali Jahangiri\AppData\Local\Temp\arduino\sketches\B2BA2E09544B6CA45C04920ABDE1657F\libraries\ArduinoBearSSL\bearssl\dec16be.c.o
+Using previously compiled file: C:\Users\Ali Jahangiri\AppData\Local\Temp\arduino\sketches\B2BA2E09544B6CA45C04920ABDE1657F\libraries\ArduinoBearSSL\bearssl\ccopy.c.o
+Using previously compiled file: C:\Users\Ali Jahangiri\AppData\Local\Temp\arduino\sketches\B2BA2E09544B6CA45C04920ABDE1657F\libraries\ArduinoBearSSL\bearssl\dec16le.c.o
+Using previously compiled file: C:\Users\Ali Jahangiri\AppData\Local\Temp\arduino\sketches\B2BA2E09544B6CA45C04920ABDE1657F\libraries\ArduinoBearSSL\bearssl\dec32be.c.o
+Using previously compiled file: C:\Users\Ali Jahangiri\AppData\Local\Temp\arduino\sketches\B2BA2E09544B6CA45C04920ABDE1657F\libraries\ArduinoBearSSL\bearssl\des_ct_cbcdec.c.o
+Using previously compiled file: C:\Users\Ali Jahangiri\AppData\Local\Temp\arduino\sketches\B2BA2E09544B6CA45C04920ABDE1657F\libraries\ArduinoBearSSL\bearssl\ccm.c.o
+Using previously compiled file: C:\Users\Ali Jahangiri\AppData\Local\Temp\arduino\sketches\B2BA2E09544B6CA45C04920ABDE1657F\libraries\ArduinoBearSSL\bearssl\des_tab_cbcenc.c.o
+Using previously compiled file: C:\Users\Ali Jahangiri\AppData\Local\Temp\arduino\sketches\B2BA2E09544B6CA45C04920ABDE1657F\libraries\ArduinoBearSSL\bearssl\dec32le.c.o
+Using previously compiled file: C:\Users\Ali Jahangiri\AppData\Local\Temp\arduino\sketches\B2BA2E09544B6CA45C04920ABDE1657F\libraries\ArduinoBearSSL\bearssl\des_ct_cbcenc.c.o
+Using previously compiled file: C:\Users\Ali Jahangiri\AppData\Local\Temp\arduino\sketches\B2BA2E09544B6CA45C04920ABDE1657F\libraries\ArduinoBearSSL\bearssl\des_ct.c.o
+Using previously compiled file: C:\Users\Ali Jahangiri\AppData\Local\Temp\arduino\sketches\B2BA2E09544B6CA45C04920ABDE1657F\libraries\ArduinoBearSSL\bearssl\des_tab_cbcdec.c.o
+Using previously compiled file: C:\Users\Ali Jahangiri\AppData\Local\Temp\arduino\sketches\B2BA2E09544B6CA45C04920ABDE1657F\libraries\ArduinoBearSSL\bearssl\eax.c.o
+Using previously compiled file: C:\Users\Ali Jahangiri\AppData\Local\Temp\arduino\sketches\B2BA2E09544B6CA45C04920ABDE1657F\libraries\ArduinoBearSSL\bearssl\des_tab.c.o
+Using previously compiled file: C:\Users\Ali Jahangiri\AppData\Local\Temp\arduino\sketches\B2BA2E09544B6CA45C04920ABDE1657F\libraries\ArduinoBearSSL\bearssl\dec64le.c.o
+Using previously compiled file: C:\Users\Ali Jahangiri\AppData\Local\Temp\arduino\sketches\B2BA2E09544B6CA45C04920ABDE1657F\libraries\ArduinoBearSSL\bearssl\dig_size.c.o
+Using previously compiled file: C:\Users\Ali Jahangiri\AppData\Local\Temp\arduino\sketches\B2BA2E09544B6CA45C04920ABDE1657F\libraries\ArduinoBearSSL\bearssl\des_support.c.o
+Using previously compiled file: C:\Users\Ali Jahangiri\AppData\Local\Temp\arduino\sketches\B2BA2E09544B6CA45C04920ABDE1657F\libraries\ArduinoBearSSL\bearssl\ec_all_m31.c.o
+Using previously compiled file: C:\Users\Ali Jahangiri\AppData\Local\Temp\arduino\sketches\B2BA2E09544B6CA45C04920ABDE1657F\libraries\ArduinoBearSSL\bearssl\dig_oid.c.o
+Using previously compiled file: C:\Users\Ali Jahangiri\AppData\Local\Temp\arduino\sketches\B2BA2E09544B6CA45C04920ABDE1657F\libraries\ArduinoBearSSL\bearssl\ec_c25519_m15.c.o
+Using previously compiled file: C:\Users\Ali Jahangiri\AppData\Local\Temp\arduino\sketches\B2BA2E09544B6CA45C04920ABDE1657F\libraries\ArduinoBearSSL\bearssl\ec_c25519_i15.c.o
+Using previously compiled file: C:\Users\Ali Jahangiri\AppData\Local\Temp\arduino\sketches\B2BA2E09544B6CA45C04920ABDE1657F\libraries\ArduinoBearSSL\bearssl\ec_all_m15.c.o
+Using previously compiled file: C:\Users\Ali Jahangiri\AppData\Local\Temp\arduino\sketches\B2BA2E09544B6CA45C04920ABDE1657F\libraries\ArduinoBearSSL\bearssl\ec_c25519_m31.c.o
+Using previously compiled file: C:\Users\Ali Jahangiri\AppData\Local\Temp\arduino\sketches\B2BA2E09544B6CA45C04920ABDE1657F\libraries\ArduinoBearSSL\bearssl\ec_c25519_i31.c.o
+Using previously compiled file: C:\Users\Ali Jahangiri\AppData\Local\Temp\arduino\sketches\B2BA2E09544B6CA45C04920ABDE1657F\libraries\ArduinoBearSSL\bearssl\ec_keygen.c.o
+Using previously compiled file: C:\Users\Ali Jahangiri\AppData\Local\Temp\arduino\sketches\B2BA2E09544B6CA45C04920ABDE1657F\libraries\ArduinoBearSSL\bearssl\ec_curve25519.c.o
+Using previously compiled file: C:\Users\Ali Jahangiri\AppData\Local\Temp\arduino\sketches\B2BA2E09544B6CA45C04920ABDE1657F\libraries\ArduinoBearSSL\bearssl\ec_p256_m31.c.o
+Using previously compiled file: C:\Users\Ali Jahangiri\AppData\Local\Temp\arduino\sketches\B2BA2E09544B6CA45C04920ABDE1657F\libraries\ArduinoBearSSL\bearssl\ec_default.c.o
+Using previously compiled file: C:\Users\Ali Jahangiri\AppData\Local\Temp\arduino\sketches\B2BA2E09544B6CA45C04920ABDE1657F\libraries\ArduinoBearSSL\bearssl\ec_pubkey.c.o
+Using previously compiled file: C:\Users\Ali Jahangiri\AppData\Local\Temp\arduino\sketches\B2BA2E09544B6CA45C04920ABDE1657F\libraries\ArduinoBearSSL\bearssl\ec_secp384r1.c.o
+Using previously compiled file: C:\Users\Ali Jahangiri\AppData\Local\Temp\arduino\sketches\B2BA2E09544B6CA45C04920ABDE1657F\libraries\ArduinoBearSSL\bearssl\ec_p256_m15.c.o
+Using previously compiled file: C:\Users\Ali Jahangiri\AppData\Local\Temp\arduino\sketches\B2BA2E09544B6CA45C04920ABDE1657F\libraries\ArduinoBearSSL\bearssl\ec_prime_i15.c.o
+Using previously compiled file: C:\Users\Ali Jahangiri\AppData\Local\Temp\arduino\sketches\B2BA2E09544B6CA45C04920ABDE1657F\libraries\ArduinoBearSSL\bearssl\ec_prime_i31.c.o
+Using previously compiled file: C:\Users\Ali Jahangiri\AppData\Local\Temp\arduino\sketches\B2BA2E09544B6CA45C04920ABDE1657F\libraries\ArduinoBearSSL\bearssl\ec_secp521r1.c.o
+Using previously compiled file: C:\Users\Ali Jahangiri\AppData\Local\Temp\arduino\sketches\B2BA2E09544B6CA45C04920ABDE1657F\libraries\ArduinoBearSSL\bearssl\ecdsa_default_sign_asn1.c.o
+Using previously compiled file: C:\Users\Ali Jahangiri\AppData\Local\Temp\arduino\sketches\B2BA2E09544B6CA45C04920ABDE1657F\libraries\ArduinoBearSSL\bearssl\ec_secp256r1.c.o
+Using previously compiled file: C:\Users\Ali Jahangiri\AppData\Local\Temp\arduino\sketches\B2BA2E09544B6CA45C04920ABDE1657F\libraries\ArduinoBearSSL\bearssl\ecdsa_default_vrfy_asn1.c.o
+Using previously compiled file: C:\Users\Ali Jahangiri\AppData\Local\Temp\arduino\sketches\B2BA2E09544B6CA45C04920ABDE1657F\libraries\ArduinoBearSSL\bearssl\ecdsa_atr.c.o
+Using previously compiled file: C:\Users\Ali Jahangiri\AppData\Local\Temp\arduino\sketches\B2BA2E09544B6CA45C04920ABDE1657F\libraries\ArduinoBearSSL\bearssl\ecdsa_i15_sign_asn1.c.o
+Using previously compiled file: C:\Users\Ali Jahangiri\AppData\Local\Temp\arduino\sketches\B2BA2E09544B6CA45C04920ABDE1657F\libraries\ArduinoBearSSL\bearssl\ecdsa_default_sign_raw.c.o
+Using previously compiled file: C:\Users\Ali Jahangiri\AppData\Local\Temp\arduino\sketches\B2BA2E09544B6CA45C04920ABDE1657F\libraries\ArduinoBearSSL\bearssl\ecdsa_i15_bits.c.o
+Using previously compiled file: C:\Users\Ali Jahangiri\AppData\Local\Temp\arduino\sketches\B2BA2E09544B6CA45C04920ABDE1657F\libraries\ArduinoBearSSL\bearssl\ecdsa_default_vrfy_raw.c.o
+Using previously compiled file: C:\Users\Ali Jahangiri\AppData\Local\Temp\arduino\sketches\B2BA2E09544B6CA45C04920ABDE1657F\libraries\ArduinoBearSSL\bearssl\ecdsa_i15_sign_raw.c.o
+Using previously compiled file: C:\Users\Ali Jahangiri\AppData\Local\Temp\arduino\sketches\B2BA2E09544B6CA45C04920ABDE1657F\libraries\ArduinoBearSSL\bearssl\ecdsa_i15_vrfy_asn1.c.o
+Using previously compiled file: C:\Users\Ali Jahangiri\AppData\Local\Temp\arduino\sketches\B2BA2E09544B6CA45C04920ABDE1657F\libraries\ArduinoBearSSL\bearssl\ecdsa_i31_bits.c.o
+Using previously compiled file: C:\Users\Ali Jahangiri\AppData\Local\Temp\arduino\sketches\B2BA2E09544B6CA45C04920ABDE1657F\libraries\ArduinoBearSSL\bearssl\ecdsa_i31_sign_asn1.c.o
+Using previously compiled file: C:\Users\Ali Jahangiri\AppData\Local\Temp\arduino\sketches\B2BA2E09544B6CA45C04920ABDE1657F\libraries\ArduinoBearSSL\bearssl\ecdsa_i31_vrfy_raw.c.o
+Using previously compiled file: C:\Users\Ali Jahangiri\AppData\Local\Temp\arduino\sketches\B2BA2E09544B6CA45C04920ABDE1657F\libraries\ArduinoBearSSL\bearssl\ecdsa_i15_vrfy_raw.c.o
+Using previously compiled file: C:\Users\Ali Jahangiri\AppData\Local\Temp\arduino\sketches\B2BA2E09544B6CA45C04920ABDE1657F\libraries\ArduinoBearSSL\bearssl\ecdsa_i31_sign_raw.c.o
+Using previously compiled file: C:\Users\Ali Jahangiri\AppData\Local\Temp\arduino\sketches\B2BA2E09544B6CA45C04920ABDE1657F\libraries\ArduinoBearSSL\bearssl\ecdsa_rta.c.o
+Using previously compiled file: C:\Users\Ali Jahangiri\AppData\Local\Temp\arduino\sketches\B2BA2E09544B6CA45C04920ABDE1657F\libraries\ArduinoBearSSL\bearssl\enc16le.c.o
+Using previously compiled file: C:\Users\Ali Jahangiri\AppData\Local\Temp\arduino\sketches\B2BA2E09544B6CA45C04920ABDE1657F\libraries\ArduinoBearSSL\bearssl\ecdsa_i31_vrfy_asn1.c.o
+Using previously compiled file: C:\Users\Ali Jahangiri\AppData\Local\Temp\arduino\sketches\B2BA2E09544B6CA45C04920ABDE1657F\libraries\ArduinoBearSSL\bearssl\enc32be.c.o
+Using previously compiled file: C:\Users\Ali Jahangiri\AppData\Local\Temp\arduino\sketches\B2BA2E09544B6CA45C04920ABDE1657F\libraries\ArduinoBearSSL\bearssl\enc32le.c.o
+Using previously compiled file: C:\Users\Ali Jahangiri\AppData\Local\Temp\arduino\sketches\B2BA2E09544B6CA45C04920ABDE1657F\libraries\ArduinoBearSSL\bearssl\enc64le.c.o
+Using previously compiled file: C:\Users\Ali Jahangiri\AppData\Local\Temp\arduino\sketches\B2BA2E09544B6CA45C04920ABDE1657F\libraries\ArduinoBearSSL\bearssl\encode_ec_rawder.c.o
+Using previously compiled file: C:\Users\Ali Jahangiri\AppData\Local\Temp\arduino\sketches\B2BA2E09544B6CA45C04920ABDE1657F\libraries\ArduinoBearSSL\bearssl\enc64be.c.o
+Using previously compiled file: C:\Users\Ali Jahangiri\AppData\Local\Temp\arduino\sketches\B2BA2E09544B6CA45C04920ABDE1657F\libraries\ArduinoBearSSL\bearssl\ghash_pclmul.c.o
+Using previously compiled file: C:\Users\Ali Jahangiri\AppData\Local\Temp\arduino\sketches\B2BA2E09544B6CA45C04920ABDE1657F\libraries\ArduinoBearSSL\bearssl\gcm.c.o
+Using previously compiled file: C:\Users\Ali Jahangiri\AppData\Local\Temp\arduino\sketches\B2BA2E09544B6CA45C04920ABDE1657F\libraries\ArduinoBearSSL\bearssl\encode_ec_pk8der.c.o
+Using previously compiled file: C:\Users\Ali Jahangiri\AppData\Local\Temp\arduino\sketches\B2BA2E09544B6CA45C04920ABDE1657F\libraries\ArduinoBearSSL\bearssl\ghash_ctmul64.c.o
+Using previously compiled file: C:\Users\Ali Jahangiri\AppData\Local\Temp\arduino\sketches\B2BA2E09544B6CA45C04920ABDE1657F\libraries\ArduinoBearSSL\bearssl\encode_rsa_rawder.c.o
+Using previously compiled file: C:\Users\Ali Jahangiri\AppData\Local\Temp\arduino\sketches\B2BA2E09544B6CA45C04920ABDE1657F\libraries\ArduinoBearSSL\bearssl\encode_rsa_pk8der.c.o
+Using previously compiled file: C:\Users\Ali Jahangiri\AppData\Local\Temp\arduino\sketches\B2BA2E09544B6CA45C04920ABDE1657F\libraries\ArduinoBearSSL\bearssl\ghash_pwr8.c.o
+Using previously compiled file: C:\Users\Ali Jahangiri\AppData\Local\Temp\arduino\sketches\B2BA2E09544B6CA45C04920ABDE1657F\libraries\ArduinoBearSSL\bearssl\hmac.c.o
+Using previously compiled file: C:\Users\Ali Jahangiri\AppData\Local\Temp\arduino\sketches\B2BA2E09544B6CA45C04920ABDE1657F\libraries\ArduinoBearSSL\bearssl\ghash_ctmul32.c.o
+Using previously compiled file: C:\Users\Ali Jahangiri\AppData\Local\Temp\arduino\sketches\B2BA2E09544B6CA45C04920ABDE1657F\libraries\ArduinoBearSSL\bearssl\ghash_ctmul.c.o
+Using previously compiled file: C:\Users\Ali Jahangiri\AppData\Local\Temp\arduino\sketches\B2BA2E09544B6CA45C04920ABDE1657F\libraries\ArduinoBearSSL\bearssl\enc16be.c.o
+Using previously compiled file: C:\Users\Ali Jahangiri\AppData\Local\Temp\arduino\sketches\B2BA2E09544B6CA45C04920ABDE1657F\libraries\ArduinoBearSSL\bearssl\hkdf.c.o
+Using previously compiled file: C:\Users\Ali Jahangiri\AppData\Local\Temp\arduino\sketches\B2BA2E09544B6CA45C04920ABDE1657F\libraries\ArduinoBearSSL\bearssl\i15_bitlen.c.o
+Using previously compiled file: C:\Users\Ali Jahangiri\AppData\Local\Temp\arduino\sketches\B2BA2E09544B6CA45C04920ABDE1657F\libraries\ArduinoBearSSL\bearssl\hmac_ct.c.o
+Using previously compiled file: C:\Users\Ali Jahangiri\AppData\Local\Temp\arduino\sketches\B2BA2E09544B6CA45C04920ABDE1657F\libraries\ArduinoBearSSL\bearssl\hmac_drbg.c.o
+Using previously compiled file: C:\Users\Ali Jahangiri\AppData\Local\Temp\arduino\sketches\B2BA2E09544B6CA45C04920ABDE1657F\libraries\ArduinoBearSSL\bearssl\i15_decmod.c.o
+Using previously compiled file: C:\Users\Ali Jahangiri\AppData\Local\Temp\arduino\sketches\B2BA2E09544B6CA45C04920ABDE1657F\libraries\ArduinoBearSSL\bearssl\i15_add.c.o
+Using previously compiled file: C:\Users\Ali Jahangiri\AppData\Local\Temp\arduino\sketches\B2BA2E09544B6CA45C04920ABDE1657F\libraries\ArduinoBearSSL\bearssl\i15_decode.c.o
+Using previously compiled file: C:\Users\Ali Jahangiri\AppData\Local\Temp\arduino\sketches\B2BA2E09544B6CA45C04920ABDE1657F\libraries\ArduinoBearSSL\bearssl\i15_decred.c.o
+Using previously compiled file: C:\Users\Ali Jahangiri\AppData\Local\Temp\arduino\sketches\B2BA2E09544B6CA45C04920ABDE1657F\libraries\ArduinoBearSSL\bearssl\i15_fmont.c.o
+Using previously compiled file: C:\Users\Ali Jahangiri\AppData\Local\Temp\arduino\sketches\B2BA2E09544B6CA45C04920ABDE1657F\libraries\ArduinoBearSSL\bearssl\i15_encode.c.o
+Using previously compiled file: C:\Users\Ali Jahangiri\AppData\Local\Temp\arduino\sketches\B2BA2E09544B6CA45C04920ABDE1657F\libraries\ArduinoBearSSL\bearssl\i15_moddiv.c.o
+Using previously compiled file: C:\Users\Ali Jahangiri\AppData\Local\Temp\arduino\sketches\B2BA2E09544B6CA45C04920ABDE1657F\libraries\ArduinoBearSSL\bearssl\i15_montmul.c.o
+Using previously compiled file: C:\Users\Ali Jahangiri\AppData\Local\Temp\arduino\sketches\B2BA2E09544B6CA45C04920ABDE1657F\libraries\ArduinoBearSSL\bearssl\i15_iszero.c.o
+Using previously compiled file: C:\Users\Ali Jahangiri\AppData\Local\Temp\arduino\sketches\B2BA2E09544B6CA45C04920ABDE1657F\libraries\ArduinoBearSSL\bearssl\i15_ninv15.c.o
+Using previously compiled file: C:\Users\Ali Jahangiri\AppData\Local\Temp\arduino\sketches\B2BA2E09544B6CA45C04920ABDE1657F\libraries\ArduinoBearSSL\bearssl\i15_mulacc.c.o
+Using previously compiled file: C:\Users\Ali Jahangiri\AppData\Local\Temp\arduino\sketches\B2BA2E09544B6CA45C04920ABDE1657F\libraries\ArduinoBearSSL\bearssl\i15_reduce.c.o
+Using previously compiled file: C:\Users\Ali Jahangiri\AppData\Local\Temp\arduino\sketches\B2BA2E09544B6CA45C04920ABDE1657F\libraries\ArduinoBearSSL\bearssl\i15_tmont.c.o
+Using previously compiled file: C:\Users\Ali Jahangiri\AppData\Local\Temp\arduino\sketches\B2BA2E09544B6CA45C04920ABDE1657F\libraries\ArduinoBearSSL\bearssl\i15_modpow.c.o
+Using previously compiled file: C:\Users\Ali Jahangiri\AppData\Local\Temp\arduino\sketches\B2BA2E09544B6CA45C04920ABDE1657F\libraries\ArduinoBearSSL\bearssl\i15_modpow2.c.o
+Using previously compiled file: C:\Users\Ali Jahangiri\AppData\Local\Temp\arduino\sketches\B2BA2E09544B6CA45C04920ABDE1657F\libraries\ArduinoBearSSL\bearssl\i15_sub.c.o
+Using previously compiled file: C:\Users\Ali Jahangiri\AppData\Local\Temp\arduino\sketches\B2BA2E09544B6CA45C04920ABDE1657F\libraries\ArduinoBearSSL\bearssl\i15_rshift.c.o
+Using previously compiled file: C:\Users\Ali Jahangiri\AppData\Local\Temp\arduino\sketches\B2BA2E09544B6CA45C04920ABDE1657F\libraries\ArduinoBearSSL\bearssl\i31_add.c.o
+Using previously compiled file: C:\Users\Ali Jahangiri\AppData\Local\Temp\arduino\sketches\B2BA2E09544B6CA45C04920ABDE1657F\libraries\ArduinoBearSSL\bearssl\i15_muladd.c.o
+Using previously compiled file: C:\Users\Ali Jahangiri\AppData\Local\Temp\arduino\sketches\B2BA2E09544B6CA45C04920ABDE1657F\libraries\ArduinoBearSSL\bearssl\i31_decmod.c.o
+Using previously compiled file: C:\Users\Ali Jahangiri\AppData\Local\Temp\arduino\sketches\B2BA2E09544B6CA45C04920ABDE1657F\libraries\ArduinoBearSSL\bearssl\i31_decred.c.o
+Using previously compiled file: C:\Users\Ali Jahangiri\AppData\Local\Temp\arduino\sketches\B2BA2E09544B6CA45C04920ABDE1657F\libraries\ArduinoBearSSL\bearssl\i31_bitlen.c.o
+Using previously compiled file: C:\Users\Ali Jahangiri\AppData\Local\Temp\arduino\sketches\B2BA2E09544B6CA45C04920ABDE1657F\libraries\ArduinoBearSSL\bearssl\i31_encode.c.o
+Using previously compiled file: C:\Users\Ali Jahangiri\AppData\Local\Temp\arduino\sketches\B2BA2E09544B6CA45C04920ABDE1657F\libraries\ArduinoBearSSL\bearssl\i31_decode.c.o
+Using previously compiled file: C:\Users\Ali Jahangiri\AppData\Local\Temp\arduino\sketches\B2BA2E09544B6CA45C04920ABDE1657F\libraries\ArduinoBearSSL\bearssl\i31_iszero.c.o
+Using previously compiled file: C:\Users\Ali Jahangiri\AppData\Local\Temp\arduino\sketches\B2BA2E09544B6CA45C04920ABDE1657F\libraries\ArduinoBearSSL\bearssl\i31_fmont.c.o
+Using previously compiled file: C:\Users\Ali Jahangiri\AppData\Local\Temp\arduino\sketches\B2BA2E09544B6CA45C04920ABDE1657F\libraries\ArduinoBearSSL\bearssl\i31_moddiv.c.o
+Using previously compiled file: C:\Users\Ali Jahangiri\AppData\Local\Temp\arduino\sketches\B2BA2E09544B6CA45C04920ABDE1657F\libraries\ArduinoBearSSL\bearssl\i31_modpow.c.o
+Using previously compiled file: C:\Users\Ali Jahangiri\AppData\Local\Temp\arduino\sketches\B2BA2E09544B6CA45C04920ABDE1657F\libraries\ArduinoBearSSL\bearssl\i31_modpow2.c.o
+Using previously compiled file: C:\Users\Ali Jahangiri\AppData\Local\Temp\arduino\sketches\B2BA2E09544B6CA45C04920ABDE1657F\libraries\ArduinoBearSSL\bearssl\i31_montmul.c.o
+Using previously compiled file: C:\Users\Ali Jahangiri\AppData\Local\Temp\arduino\sketches\B2BA2E09544B6CA45C04920ABDE1657F\libraries\ArduinoBearSSL\bearssl\i31_muladd.c.o
+Using previously compiled file: C:\Users\Ali Jahangiri\AppData\Local\Temp\arduino\sketches\B2BA2E09544B6CA45C04920ABDE1657F\libraries\ArduinoBearSSL\bearssl\i31_mulacc.c.o
+Using previously compiled file: C:\Users\Ali Jahangiri\AppData\Local\Temp\arduino\sketches\B2BA2E09544B6CA45C04920ABDE1657F\libraries\ArduinoBearSSL\bearssl\i31_ninv31.c.o
+Using previously compiled file: C:\Users\Ali Jahangiri\AppData\Local\Temp\arduino\sketches\B2BA2E09544B6CA45C04920ABDE1657F\libraries\ArduinoBearSSL\bearssl\i31_rshift.c.o
+Using previously compiled file: C:\Users\Ali Jahangiri\AppData\Local\Temp\arduino\sketches\B2BA2E09544B6CA45C04920ABDE1657F\libraries\ArduinoBearSSL\bearssl\i31_sub.c.o
+Using previously compiled file: C:\Users\Ali Jahangiri\AppData\Local\Temp\arduino\sketches\B2BA2E09544B6CA45C04920ABDE1657F\libraries\ArduinoBearSSL\bearssl\i31_tmont.c.o
+Using previously compiled file: C:\Users\Ali Jahangiri\AppData\Local\Temp\arduino\sketches\B2BA2E09544B6CA45C04920ABDE1657F\libraries\ArduinoBearSSL\bearssl\i31_reduce.c.o
+Using previously compiled file: C:\Users\Ali Jahangiri\AppData\Local\Temp\arduino\sketches\B2BA2E09544B6CA45C04920ABDE1657F\libraries\ArduinoBearSSL\bearssl\i32_bitlen.c.o
+Using previously compiled file: C:\Users\Ali Jahangiri\AppData\Local\Temp\arduino\sketches\B2BA2E09544B6CA45C04920ABDE1657F\libraries\ArduinoBearSSL\bearssl\i32_decmod.c.o
+Using previously compiled file: C:\Users\Ali Jahangiri\AppData\Local\Temp\arduino\sketches\B2BA2E09544B6CA45C04920ABDE1657F\libraries\ArduinoBearSSL\bearssl\i32_add.c.o
+Using previously compiled file: C:\Users\Ali Jahangiri\AppData\Local\Temp\arduino\sketches\B2BA2E09544B6CA45C04920ABDE1657F\libraries\ArduinoBearSSL\bearssl\i32_decode.c.o
+Using previously compiled file: C:\Users\Ali Jahangiri\AppData\Local\Temp\arduino\sketches\B2BA2E09544B6CA45C04920ABDE1657F\libraries\ArduinoBearSSL\bearssl\i32_div32.c.o
+Using previously compiled file: C:\Users\Ali Jahangiri\AppData\Local\Temp\arduino\sketches\B2BA2E09544B6CA45C04920ABDE1657F\libraries\ArduinoBearSSL\bearssl\i32_encode.c.o
+Using previously compiled file: C:\Users\Ali Jahangiri\AppData\Local\Temp\arduino\sketches\B2BA2E09544B6CA45C04920ABDE1657F\libraries\ArduinoBearSSL\bearssl\i32_fmont.c.o
+Using previously compiled file: C:\Users\Ali Jahangiri\AppData\Local\Temp\arduino\sketches\B2BA2E09544B6CA45C04920ABDE1657F\libraries\ArduinoBearSSL\bearssl\i32_decred.c.o
+Using previously compiled file: C:\Users\Ali Jahangiri\AppData\Local\Temp\arduino\sketches\B2BA2E09544B6CA45C04920ABDE1657F\libraries\ArduinoBearSSL\bearssl\i32_modpow.c.o
+Using previously compiled file: C:\Users\Ali Jahangiri\AppData\Local\Temp\arduino\sketches\B2BA2E09544B6CA45C04920ABDE1657F\libraries\ArduinoBearSSL\bearssl\i32_iszero.c.o
+Using previously compiled file: C:\Users\Ali Jahangiri\AppData\Local\Temp\arduino\sketches\B2BA2E09544B6CA45C04920ABDE1657F\libraries\ArduinoBearSSL\bearssl\i32_montmul.c.o
+Using previously compiled file: C:\Users\Ali Jahangiri\AppData\Local\Temp\arduino\sketches\B2BA2E09544B6CA45C04920ABDE1657F\libraries\ArduinoBearSSL\bearssl\i32_ninv32.c.o
+Using previously compiled file: C:\Users\Ali Jahangiri\AppData\Local\Temp\arduino\sketches\B2BA2E09544B6CA45C04920ABDE1657F\libraries\ArduinoBearSSL\bearssl\i32_tmont.c.o
+Using previously compiled file: C:\Users\Ali Jahangiri\AppData\Local\Temp\arduino\sketches\B2BA2E09544B6CA45C04920ABDE1657F\libraries\ArduinoBearSSL\bearssl\i32_mulacc.c.o
+Using previously compiled file: C:\Users\Ali Jahangiri\AppData\Local\Temp\arduino\sketches\B2BA2E09544B6CA45C04920ABDE1657F\libraries\ArduinoBearSSL\bearssl\i32_reduce.c.o
+Using previously compiled file: C:\Users\Ali Jahangiri\AppData\Local\Temp\arduino\sketches\B2BA2E09544B6CA45C04920ABDE1657F\libraries\ArduinoBearSSL\bearssl\i32_muladd.c.o
+Using previously compiled file: C:\Users\Ali Jahangiri\AppData\Local\Temp\arduino\sketches\B2BA2E09544B6CA45C04920ABDE1657F\libraries\ArduinoBearSSL\bearssl\md5sha1.c.o
+Using previously compiled file: C:\Users\Ali Jahangiri\AppData\Local\Temp\arduino\sketches\B2BA2E09544B6CA45C04920ABDE1657F\libraries\ArduinoBearSSL\bearssl\i32_sub.c.o
+Using previously compiled file: C:\Users\Ali Jahangiri\AppData\Local\Temp\arduino\sketches\B2BA2E09544B6CA45C04920ABDE1657F\libraries\ArduinoBearSSL\bearssl\pemdec.c.o
+Using previously compiled file: C:\Users\Ali Jahangiri\AppData\Local\Temp\arduino\sketches\B2BA2E09544B6CA45C04920ABDE1657F\libraries\ArduinoBearSSL\bearssl\md5.c.o
+Using previously compiled file: C:\Users\Ali Jahangiri\AppData\Local\Temp\arduino\sketches\B2BA2E09544B6CA45C04920ABDE1657F\libraries\ArduinoBearSSL\bearssl\mgf1.c.o
+Using previously compiled file: C:\Users\Ali Jahangiri\AppData\Local\Temp\arduino\sketches\B2BA2E09544B6CA45C04920ABDE1657F\libraries\ArduinoBearSSL\bearssl\poly1305_ctmul.c.o
+Using previously compiled file: C:\Users\Ali Jahangiri\AppData\Local\Temp\arduino\sketches\B2BA2E09544B6CA45C04920ABDE1657F\libraries\ArduinoBearSSL\bearssl\multihash.c.o
+Using previously compiled file: C:\Users\Ali Jahangiri\AppData\Local\Temp\arduino\sketches\B2BA2E09544B6CA45C04920ABDE1657F\libraries\ArduinoBearSSL\bearssl\i62_modpow2.c.o
+Using previously compiled file: C:\Users\Ali Jahangiri\AppData\Local\Temp\arduino\sketches\B2BA2E09544B6CA45C04920ABDE1657F\libraries\ArduinoBearSSL\bearssl\pemenc.c.o
+Using previously compiled file: C:\Users\Ali Jahangiri\AppData\Local\Temp\arduino\sketches\B2BA2E09544B6CA45C04920ABDE1657F\libraries\ArduinoBearSSL\bearssl\poly1305_ctmul32.c.o
+Using previously compiled file: C:\Users\Ali Jahangiri\AppData\Local\Temp\arduino\sketches\B2BA2E09544B6CA45C04920ABDE1657F\libraries\ArduinoBearSSL\bearssl\poly1305_i15.c.o
+Using previously compiled file: C:\Users\Ali Jahangiri\AppData\Local\Temp\arduino\sketches\B2BA2E09544B6CA45C04920ABDE1657F\libraries\ArduinoBearSSL\bearssl\prf.c.o
+Using previously compiled file: C:\Users\Ali Jahangiri\AppData\Local\Temp\arduino\sketches\B2BA2E09544B6CA45C04920ABDE1657F\libraries\ArduinoBearSSL\bearssl\poly1305_ctmulq.c.o
+Using previously compiled file: C:\Users\Ali Jahangiri\AppData\Local\Temp\arduino\sketches\B2BA2E09544B6CA45C04920ABDE1657F\libraries\ArduinoBearSSL\bearssl\prf_sha256.c.o
+Using previously compiled file: C:\Users\Ali Jahangiri\AppData\Local\Temp\arduino\sketches\B2BA2E09544B6CA45C04920ABDE1657F\libraries\ArduinoBearSSL\bearssl\prf_sha384.c.o
+Using previously compiled file: C:\Users\Ali Jahangiri\AppData\Local\Temp\arduino\sketches\B2BA2E09544B6CA45C04920ABDE1657F\libraries\ArduinoBearSSL\bearssl\prf_md5sha1.c.o
+Using previously compiled file: C:\Users\Ali Jahangiri\AppData\Local\Temp\arduino\sketches\B2BA2E09544B6CA45C04920ABDE1657F\libraries\ArduinoBearSSL\bearssl\rsa_default_oaep_decrypt.c.o
+Using previously compiled file: C:\Users\Ali Jahangiri\AppData\Local\Temp\arduino\sketches\B2BA2E09544B6CA45C04920ABDE1657F\libraries\ArduinoBearSSL\bearssl\rsa_default_modulus.c.o
+Using previously compiled file: C:\Users\Ali Jahangiri\AppData\Local\Temp\arduino\sketches\B2BA2E09544B6CA45C04920ABDE1657F\libraries\ArduinoBearSSL\bearssl\rsa_default_keygen.c.o
+Using previously compiled file: C:\Users\Ali Jahangiri\AppData\Local\Temp\arduino\sketches\B2BA2E09544B6CA45C04920ABDE1657F\libraries\ArduinoBearSSL\bearssl\rsa_default_oaep_encrypt.c.o
+Using previously compiled file: C:\Users\Ali Jahangiri\AppData\Local\Temp\arduino\sketches\B2BA2E09544B6CA45C04920ABDE1657F\libraries\ArduinoBearSSL\bearssl\rsa_default_priv.c.o
+Using previously compiled file: C:\Users\Ali Jahangiri\AppData\Local\Temp\arduino\sketches\B2BA2E09544B6CA45C04920ABDE1657F\libraries\ArduinoBearSSL\bearssl\rsa_default_pkcs1_vrfy.c.o
+Using previously compiled file: C:\Users\Ali Jahangiri\AppData\Local\Temp\arduino\sketches\B2BA2E09544B6CA45C04920ABDE1657F\libraries\ArduinoBearSSL\bearssl\rsa_i15_keygen.c.o
+Using previously compiled file: C:\Users\Ali Jahangiri\AppData\Local\Temp\arduino\sketches\B2BA2E09544B6CA45C04920ABDE1657F\libraries\ArduinoBearSSL\bearssl\rsa_i15_modulus.c.o
+Using previously compiled file: C:\Users\Ali Jahangiri\AppData\Local\Temp\arduino\sketches\B2BA2E09544B6CA45C04920ABDE1657F\libraries\ArduinoBearSSL\bearssl\rsa_default_pkcs1_sign.c.o
+Using previously compiled file: C:\Users\Ali Jahangiri\AppData\Local\Temp\arduino\sketches\B2BA2E09544B6CA45C04920ABDE1657F\libraries\ArduinoBearSSL\bearssl\rsa_default_pub.c.o
+Using previously compiled file: C:\Users\Ali Jahangiri\AppData\Local\Temp\arduino\sketches\B2BA2E09544B6CA45C04920ABDE1657F\libraries\ArduinoBearSSL\bearssl\rsa_i15_oaep_decrypt.c.o
+Using previously compiled file: C:\Users\Ali Jahangiri\AppData\Local\Temp\arduino\sketches\B2BA2E09544B6CA45C04920ABDE1657F\libraries\ArduinoBearSSL\bearssl\rsa_default_pubexp.c.o
+Using previously compiled file: C:\Users\Ali Jahangiri\AppData\Local\Temp\arduino\sketches\B2BA2E09544B6CA45C04920ABDE1657F\libraries\ArduinoBearSSL\bearssl\rsa_default_privexp.c.o
+Using previously compiled file: C:\Users\Ali Jahangiri\AppData\Local\Temp\arduino\sketches\B2BA2E09544B6CA45C04920ABDE1657F\libraries\ArduinoBearSSL\bearssl\rsa_i31_privexp.c.o
+Using previously compiled file: C:\Users\Ali Jahangiri\AppData\Local\Temp\arduino\sketches\B2BA2E09544B6CA45C04920ABDE1657F\libraries\ArduinoBearSSL\bearssl\rsa_i15_pkcs1_sign.c.o
+Using previously compiled file: C:\Users\Ali Jahangiri\AppData\Local\Temp\arduino\sketches\B2BA2E09544B6CA45C04920ABDE1657F\libraries\ArduinoBearSSL\bearssl\rsa_i15_oaep_encrypt.c.o
+Using previously compiled file: C:\Users\Ali Jahangiri\AppData\Local\Temp\arduino\sketches\B2BA2E09544B6CA45C04920ABDE1657F\libraries\ArduinoBearSSL\bearssl\rsa_i15_privexp.c.o
+Using previously compiled file: C:\Users\Ali Jahangiri\AppData\Local\Temp\arduino\sketches\B2BA2E09544B6CA45C04920ABDE1657F\libraries\ArduinoBearSSL\bearssl\rsa_i31_pkcs1_sign.c.o
+Using previously compiled file: C:\Users\Ali Jahangiri\AppData\Local\Temp\arduino\sketches\B2BA2E09544B6CA45C04920ABDE1657F\libraries\ArduinoBearSSL\bearssl\rsa_i31_modulus.c.o
+Using previously compiled file: C:\Users\Ali Jahangiri\AppData\Local\Temp\arduino\sketches\B2BA2E09544B6CA45C04920ABDE1657F\libraries\ArduinoBearSSL\bearssl\rsa_i31_pkcs1_vrfy.c.o
+Using previously compiled file: C:\Users\Ali Jahangiri\AppData\Local\Temp\arduino\sketches\B2BA2E09544B6CA45C04920ABDE1657F\libraries\ArduinoBearSSL\bearssl\rsa_i15_pubexp.c.o
+Using previously compiled file: C:\Users\Ali Jahangiri\AppData\Local\Temp\arduino\sketches\B2BA2E09544B6CA45C04920ABDE1657F\libraries\ArduinoBearSSL\bearssl\rsa_i15_pkcs1_vrfy.c.o
+Using previously compiled file: C:\Users\Ali Jahangiri\AppData\Local\Temp\arduino\sketches\B2BA2E09544B6CA45C04920ABDE1657F\libraries\ArduinoBearSSL\bearssl\rsa_i31_keygen.c.o
+Using previously compiled file: C:\Users\Ali Jahangiri\AppData\Local\Temp\arduino\sketches\B2BA2E09544B6CA45C04920ABDE1657F\libraries\ArduinoBearSSL\bearssl\rsa_i15_priv.c.o
+Using previously compiled file: C:\Users\Ali Jahangiri\AppData\Local\Temp\arduino\sketches\B2BA2E09544B6CA45C04920ABDE1657F\libraries\ArduinoBearSSL\bearssl\rsa_i31_oaep_decrypt.c.o
+Using previously compiled file: C:\Users\Ali Jahangiri\AppData\Local\Temp\arduino\sketches\B2BA2E09544B6CA45C04920ABDE1657F\libraries\ArduinoBearSSL\bearssl\rsa_i31_priv.c.o
+Using previously compiled file: C:\Users\Ali Jahangiri\AppData\Local\Temp\arduino\sketches\B2BA2E09544B6CA45C04920ABDE1657F\libraries\ArduinoBearSSL\bearssl\rsa_i31_oaep_encrypt.c.o
+Using previously compiled file: C:\Users\Ali Jahangiri\AppData\Local\Temp\arduino\sketches\B2BA2E09544B6CA45C04920ABDE1657F\libraries\ArduinoBearSSL\bearssl\rsa_i15_pub.c.o
+Using previously compiled file: C:\Users\Ali Jahangiri\AppData\Local\Temp\arduino\sketches\B2BA2E09544B6CA45C04920ABDE1657F\libraries\ArduinoBearSSL\bearssl\rsa_i31_pub.c.o
+Using previously compiled file: C:\Users\Ali Jahangiri\AppData\Local\Temp\arduino\sketches\B2BA2E09544B6CA45C04920ABDE1657F\libraries\ArduinoBearSSL\bearssl\rsa_i31_keygen_inner.c.o
+Using previously compiled file: C:\Users\Ali Jahangiri\AppData\Local\Temp\arduino\sketches\B2BA2E09544B6CA45C04920ABDE1657F\libraries\ArduinoBearSSL\bearssl\rsa_i32_oaep_decrypt.c.o
+Using previously compiled file: C:\Users\Ali Jahangiri\AppData\Local\Temp\arduino\sketches\B2BA2E09544B6CA45C04920ABDE1657F\libraries\ArduinoBearSSL\bearssl\rsa_i31_pubexp.c.o
+Using previously compiled file: C:\Users\Ali Jahangiri\AppData\Local\Temp\arduino\sketches\B2BA2E09544B6CA45C04920ABDE1657F\libraries\ArduinoBearSSL\bearssl\rsa_i32_oaep_encrypt.c.o
+Using previously compiled file: C:\Users\Ali Jahangiri\AppData\Local\Temp\arduino\sketches\B2BA2E09544B6CA45C04920ABDE1657F\libraries\ArduinoBearSSL\bearssl\rsa_i32_pkcs1_sign.c.o
+Using previously compiled file: C:\Users\Ali Jahangiri\AppData\Local\Temp\arduino\sketches\B2BA2E09544B6CA45C04920ABDE1657F\libraries\ArduinoBearSSL\bearssl\rsa_i32_pkcs1_vrfy.c.o
+Using previously compiled file: C:\Users\Ali Jahangiri\AppData\Local\Temp\arduino\sketches\B2BA2E09544B6CA45C04920ABDE1657F\libraries\ArduinoBearSSL\bearssl\rsa_i32_priv.c.o
+Using previously compiled file: C:\Users\Ali Jahangiri\AppData\Local\Temp\arduino\sketches\B2BA2E09544B6CA45C04920ABDE1657F\libraries\ArduinoBearSSL\bearssl\rsa_i32_pub.c.o
+Using previously compiled file: C:\Users\Ali Jahangiri\AppData\Local\Temp\arduino\sketches\B2BA2E09544B6CA45C04920ABDE1657F\libraries\ArduinoBearSSL\bearssl\rsa_i62_oaep_decrypt.c.o
+Using previously compiled file: C:\Users\Ali Jahangiri\AppData\Local\Temp\arduino\sketches\B2BA2E09544B6CA45C04920ABDE1657F\libraries\ArduinoBearSSL\bearssl\rsa_i62_keygen.c.o
+Using previously compiled file: C:\Users\Ali Jahangiri\AppData\Local\Temp\arduino\sketches\B2BA2E09544B6CA45C04920ABDE1657F\libraries\ArduinoBearSSL\bearssl\rsa_i62_priv.c.o
+Using previously compiled file: C:\Users\Ali Jahangiri\AppData\Local\Temp\arduino\sketches\B2BA2E09544B6CA45C04920ABDE1657F\libraries\ArduinoBearSSL\bearssl\rsa_i62_pkcs1_sign.c.o
+Using previously compiled file: C:\Users\Ali Jahangiri\AppData\Local\Temp\arduino\sketches\B2BA2E09544B6CA45C04920ABDE1657F\libraries\ArduinoBearSSL\bearssl\rsa_i62_oaep_encrypt.c.o
+Using previously compiled file: C:\Users\Ali Jahangiri\AppData\Local\Temp\arduino\sketches\B2BA2E09544B6CA45C04920ABDE1657F\libraries\ArduinoBearSSL\bearssl\rsa_i62_pub.c.o
+Using previously compiled file: C:\Users\Ali Jahangiri\AppData\Local\Temp\arduino\sketches\B2BA2E09544B6CA45C04920ABDE1657F\libraries\ArduinoBearSSL\bearssl\rsa_oaep_pad.c.o
+Using previously compiled file: C:\Users\Ali Jahangiri\AppData\Local\Temp\arduino\sketches\B2BA2E09544B6CA45C04920ABDE1657F\libraries\ArduinoBearSSL\bearssl\rsa_i62_pkcs1_vrfy.c.o
+Using previously compiled file: C:\Users\Ali Jahangiri\AppData\Local\Temp\arduino\sketches\B2BA2E09544B6CA45C04920ABDE1657F\libraries\ArduinoBearSSL\bearssl\rsa_oaep_unpad.c.o
+Using previously compiled file: C:\Users\Ali Jahangiri\AppData\Local\Temp\arduino\sketches\B2BA2E09544B6CA45C04920ABDE1657F\libraries\ArduinoBearSSL\bearssl\rsa_pkcs1_sig_unpad.c.o
+Using previously compiled file: C:\Users\Ali Jahangiri\AppData\Local\Temp\arduino\sketches\B2BA2E09544B6CA45C04920ABDE1657F\libraries\ArduinoBearSSL\bearssl\rsa_pkcs1_sig_pad.c.o
+Using previously compiled file: C:\Users\Ali Jahangiri\AppData\Local\Temp\arduino\sketches\B2BA2E09544B6CA45C04920ABDE1657F\libraries\ArduinoBearSSL\bearssl\sha2big.c.o
+Using previously compiled file: C:\Users\Ali Jahangiri\AppData\Local\Temp\arduino\sketches\B2BA2E09544B6CA45C04920ABDE1657F\libraries\ArduinoBearSSL\bearssl\rsa_ssl_decrypt.c.o
+Using previously compiled file: C:\Users\Ali Jahangiri\AppData\Local\Temp\arduino\sketches\B2BA2E09544B6CA45C04920ABDE1657F\libraries\ArduinoBearSSL\bearssl\sha1.c.o
+Using previously compiled file: C:\Users\Ali Jahangiri\AppData\Local\Temp\arduino\sketches\B2BA2E09544B6CA45C04920ABDE1657F\libraries\ArduinoBearSSL\bearssl\settings.c.o
+Using previously compiled file: C:\Users\Ali Jahangiri\AppData\Local\Temp\arduino\sketches\B2BA2E09544B6CA45C04920ABDE1657F\libraries\ArduinoBearSSL\bearssl\skey_decoder.c.o
+Using previously compiled file: C:\Users\Ali Jahangiri\AppData\Local\Temp\arduino\sketches\B2BA2E09544B6CA45C04920ABDE1657F\libraries\ArduinoBearSSL\bearssl\sha2small.c.o
+Using previously compiled file: C:\Users\Ali Jahangiri\AppData\Local\Temp\arduino\sketches\B2BA2E09544B6CA45C04920ABDE1657F\libraries\ArduinoBearSSL\bearssl\ssl_ccert_single_ec.c.o
+Using previously compiled file: C:\Users\Ali Jahangiri\AppData\Local\Temp\arduino\sketches\B2BA2E09544B6CA45C04920ABDE1657F\libraries\ArduinoBearSSL\bearssl\ssl_ccert_single_rsa.c.o
+Using previously compiled file: C:\Users\Ali Jahangiri\AppData\Local\Temp\arduino\sketches\B2BA2E09544B6CA45C04920ABDE1657F\libraries\ArduinoBearSSL\bearssl\ssl_client_full.c.o
+Using previously compiled file: C:\Users\Ali Jahangiri\AppData\Local\Temp\arduino\sketches\B2BA2E09544B6CA45C04920ABDE1657F\libraries\ArduinoBearSSL\bearssl\ssl_engine_default_chapol.c.o
+Using previously compiled file: C:\Users\Ali Jahangiri\AppData\Local\Temp\arduino\sketches\B2BA2E09544B6CA45C04920ABDE1657F\libraries\ArduinoBearSSL\bearssl\ssl_client.c.o
+Using previously compiled file: C:\Users\Ali Jahangiri\AppData\Local\Temp\arduino\sketches\B2BA2E09544B6CA45C04920ABDE1657F\libraries\ArduinoBearSSL\bearssl\ssl_client_default_rsapub.c.o
+Using previously compiled file: C:\Users\Ali Jahangiri\AppData\Local\Temp\arduino\sketches\B2BA2E09544B6CA45C04920ABDE1657F\libraries\ArduinoBearSSL\bearssl\ssl_engine.c.o
+Using previously compiled file: C:\Users\Ali Jahangiri\AppData\Local\Temp\arduino\sketches\B2BA2E09544B6CA45C04920ABDE1657F\libraries\ArduinoBearSSL\bearssl\ssl_hashes.c.o
+Using previously compiled file: C:\Users\Ali Jahangiri\AppData\Local\Temp\arduino\sketches\B2BA2E09544B6CA45C04920ABDE1657F\libraries\ArduinoBearSSL\bearssl\ssl_engine_default_aescbc.c.o
+Using previously compiled file: C:\Users\Ali Jahangiri\AppData\Local\Temp\arduino\sketches\B2BA2E09544B6CA45C04920ABDE1657F\libraries\ArduinoBearSSL\bearssl\ssl_engine_default_descbc.c.o
+Using previously compiled file: C:\Users\Ali Jahangiri\AppData\Local\Temp\arduino\sketches\B2BA2E09544B6CA45C04920ABDE1657F\libraries\ArduinoBearSSL\bearssl\ssl_engine_default_aesccm.c.o
+Using previously compiled file: C:\Users\Ali Jahangiri\AppData\Local\Temp\arduino\sketches\B2BA2E09544B6CA45C04920ABDE1657F\libraries\ArduinoBearSSL\bearssl\ssl_engine_default_rsavrfy.c.o
+Using previously compiled file: C:\Users\Ali Jahangiri\AppData\Local\Temp\arduino\sketches\B2BA2E09544B6CA45C04920ABDE1657F\libraries\ArduinoBearSSL\bearssl\ssl_engine_default_aesgcm.c.o
+Using previously compiled file: C:\Users\Ali Jahangiri\AppData\Local\Temp\arduino\sketches\B2BA2E09544B6CA45C04920ABDE1657F\libraries\ArduinoBearSSL\bearssl\ssl_hs_client.c.o
+Using previously compiled file: C:\Users\Ali Jahangiri\AppData\Local\Temp\arduino\sketches\B2BA2E09544B6CA45C04920ABDE1657F\libraries\ArduinoBearSSL\bearssl\ssl_hs_server.c.o
+Using previously compiled file: C:\Users\Ali Jahangiri\AppData\Local\Temp\arduino\sketches\B2BA2E09544B6CA45C04920ABDE1657F\libraries\ArduinoBearSSL\bearssl\ssl_io.c.o
+Using previously compiled file: C:\Users\Ali Jahangiri\AppData\Local\Temp\arduino\sketches\B2BA2E09544B6CA45C04920ABDE1657F\libraries\ArduinoBearSSL\bearssl\ssl_engine_default_ecdsa.c.o
+Using previously compiled file: C:\Users\Ali Jahangiri\AppData\Local\Temp\arduino\sketches\B2BA2E09544B6CA45C04920ABDE1657F\libraries\ArduinoBearSSL\bearssl\ssl_keyexport.c.o
+Using previously compiled file: C:\Users\Ali Jahangiri\AppData\Local\Temp\arduino\sketches\B2BA2E09544B6CA45C04920ABDE1657F\libraries\ArduinoBearSSL\bearssl\ssl_lru.c.o
+Using previously compiled file: C:\Users\Ali Jahangiri\AppData\Local\Temp\arduino\sketches\B2BA2E09544B6CA45C04920ABDE1657F\libraries\ArduinoBearSSL\bearssl\ssl_rec_ccm.c.o
+Using previously compiled file: C:\Users\Ali Jahangiri\AppData\Local\Temp\arduino\sketches\B2BA2E09544B6CA45C04920ABDE1657F\libraries\ArduinoBearSSL\bearssl\ssl_engine_default_ec.c.o
+Using previously compiled file: C:\Users\Ali Jahangiri\AppData\Local\Temp\arduino\sketches\B2BA2E09544B6CA45C04920ABDE1657F\libraries\ArduinoBearSSL\bearssl\ssl_rec_chapol.c.o
+Using previously compiled file: C:\Users\Ali Jahangiri\AppData\Local\Temp\arduino\sketches\B2BA2E09544B6CA45C04920ABDE1657F\libraries\ArduinoBearSSL\bearssl\ssl_rec_cbc.c.o
+Using previously compiled file: C:\Users\Ali Jahangiri\AppData\Local\Temp\arduino\sketches\B2BA2E09544B6CA45C04920ABDE1657F\libraries\ArduinoBearSSL\bearssl\ssl_rec_gcm.c.o
+Using previously compiled file: C:\Users\Ali Jahangiri\AppData\Local\Temp\arduino\sketches\B2BA2E09544B6CA45C04920ABDE1657F\libraries\ArduinoBearSSL\bearssl\ssl_scert_single_ec.c.o
+Using previously compiled file: C:\Users\Ali Jahangiri\AppData\Local\Temp\arduino\sketches\B2BA2E09544B6CA45C04920ABDE1657F\libraries\ArduinoBearSSL\bearssl\ssl_server.c.o
+Using previously compiled file: C:\Users\Ali Jahangiri\AppData\Local\Temp\arduino\sketches\B2BA2E09544B6CA45C04920ABDE1657F\libraries\ArduinoBearSSL\bearssl\ssl_server_minf2c.c.o
+Using previously compiled file: C:\Users\Ali Jahangiri\AppData\Local\Temp\arduino\sketches\B2BA2E09544B6CA45C04920ABDE1657F\libraries\ArduinoBearSSL\bearssl\ssl_scert_single_rsa.c.o
+Using previously compiled file: C:\Users\Ali Jahangiri\AppData\Local\Temp\arduino\sketches\B2BA2E09544B6CA45C04920ABDE1657F\libraries\ArduinoBearSSL\bearssl\ssl_server_mine2g.c.o
+Using previously compiled file: C:\Users\Ali Jahangiri\AppData\Local\Temp\arduino\sketches\B2BA2E09544B6CA45C04920ABDE1657F\libraries\ArduinoBearSSL\bearssl\ssl_server_full_rsa.c.o
+Using previously compiled file: C:\Users\Ali Jahangiri\AppData\Local\Temp\arduino\sketches\B2BA2E09544B6CA45C04920ABDE1657F\libraries\ArduinoBearSSL\bearssl\ssl_server_mine2c.c.o
+Using previously compiled file: C:\Users\Ali Jahangiri\AppData\Local\Temp\arduino\sketches\B2BA2E09544B6CA45C04920ABDE1657F\libraries\ArduinoBearSSL\bearssl\ssl_server_minu2g.c.o
+Using previously compiled file: C:\Users\Ali Jahangiri\AppData\Local\Temp\arduino\sketches\B2BA2E09544B6CA45C04920ABDE1657F\libraries\ArduinoBearSSL\bearssl\ssl_server_minv2g.c.o
+Using previously compiled file: C:\Users\Ali Jahangiri\AppData\Local\Temp\arduino\sketches\B2BA2E09544B6CA45C04920ABDE1657F\libraries\ArduinoBearSSL\bearssl\ssl_server_full_ec.c.o
+Using previously compiled file: C:\Users\Ali Jahangiri\AppData\Local\Temp\arduino\sketches\B2BA2E09544B6CA45C04920ABDE1657F\libraries\ArduinoBearSSL\bearssl\ssl_server_minr2g.c.o
+Using previously compiled file: C:\Users\Ali Jahangiri\AppData\Local\Temp\arduino\sketches\B2BA2E09544B6CA45C04920ABDE1657F\libraries\ArduinoBearSSL\bearssl\ssl_server_minf2g.c.o
+Using previously compiled file: C:\Users\Ali Jahangiri\AppData\Local\Temp\arduino\sketches\B2BA2E09544B6CA45C04920ABDE1657F\libraries\ArduinoBearSSL\bearssl\sysrng.c.o
+Using previously compiled file: C:\Users\Ali Jahangiri\AppData\Local\Temp\arduino\sketches\B2BA2E09544B6CA45C04920ABDE1657F\libraries\ArduinoBearSSL\bearssl\x509_knownkey.c.o
+Using previously compiled file: C:\Users\Ali Jahangiri\AppData\Local\Temp\arduino\sketches\B2BA2E09544B6CA45C04920ABDE1657F\libraries\ArduinoBearSSL\bearssl\x509_minimal.c.o
+Using previously compiled file: C:\Users\Ali Jahangiri\AppData\Local\Temp\arduino\sketches\B2BA2E09544B6CA45C04920ABDE1657F\libraries\ArduinoBearSSL\bearssl\x509_decoder.c.o
+Using previously compiled file: C:\Users\Ali Jahangiri\AppData\Local\Temp\arduino\sketches\B2BA2E09544B6CA45C04920ABDE1657F\libraries\ArduinoBearSSL\bearssl\x509_minimal_full.c.o
+Using previously compiled file: C:\Users\Ali Jahangiri\AppData\Local\Temp\arduino\sketches\B2BA2E09544B6CA45C04920ABDE1657F\libraries\ArduinoBearSSL\utility\eccX08_sign_asn1.cpp.o
+Using previously compiled file: C:\Users\Ali Jahangiri\AppData\Local\Temp\arduino\sketches\B2BA2E09544B6CA45C04920ABDE1657F\libraries\ArduinoBearSSL\utility\eccX08_vrfy_asn1.cpp.o
+Compiling library "StreamDebugger"
+Compiling library "TinyGSM"
+Compiling library "ArduinoHttpClient"
+Using previously compiled file: C:\Users\Ali Jahangiri\AppData\Local\Temp\arduino\sketches\B2BA2E09544B6CA45C04920ABDE1657F\libraries\ArduinoHttpClient\b64.cpp.o
+Using previously compiled file: C:\Users\Ali Jahangiri\AppData\Local\Temp\arduino\sketches\B2BA2E09544B6CA45C04920ABDE1657F\libraries\ArduinoHttpClient\utility\URLParser\http_parser.c.o
+Using previously compiled file: C:\Users\Ali Jahangiri\AppData\Local\Temp\arduino\sketches\B2BA2E09544B6CA45C04920ABDE1657F\libraries\ArduinoHttpClient\HttpClient.cpp.o
+Using previously compiled file: C:\Users\Ali Jahangiri\AppData\Local\Temp\arduino\sketches\B2BA2E09544B6CA45C04920ABDE1657F\libraries\ArduinoHttpClient\URLEncoder.cpp.o
+Using previously compiled file: C:\Users\Ali Jahangiri\AppData\Local\Temp\arduino\sketches\B2BA2E09544B6CA45C04920ABDE1657F\libraries\ArduinoHttpClient\WebSocketClient.cpp.o
+Compiling core...
+Using previously compiled file: C:\Users\Ali Jahangiri\AppData\Local\Temp\arduino\sketches\B2BA2E09544B6CA45C04920ABDE1657F\core\variant.cpp.o
+Using precompiled core: C:\Users\Ali Jahangiri\AppData\Local\Temp\arduino\cores\794cb918b81cba18f16e5dc53ce6a774\core.a
+Linking everything together...
+"C:\\Users\\Ali Jahangiri\\AppData\\Local\\Arduino15\\packages\\arduino\\tools\\arm-none-eabi-gcc\\7-2017q4/bin/arm-none-eabi-g++" -E -P -x c -DCM4_BINARY_START=0x08100000 -DCM4_BINARY_END=0x08200000 "C:\\Users\\Ali Jahangiri\\AppData\\Local\\Arduino15\\packages\\arduino\\hardware\\mbed_portenta\\4.1.3\\variants\\PORTENTA_H7_M7/linker_script.ld" -o "C:\\Users\\Ali Jahangiri\\AppData\\Local\\Temp\\arduino\\sketches\\B2BA2E09544B6CA45C04920ABDE1657F/linker_script.ld"
+"C:\\Users\\Ali Jahangiri\\AppData\\Local\\Arduino15\\packages\\arduino\\tools\\arm-none-eabi-gcc\\7-2017q4/bin/arm-none-eabi-ar" rcs "C:\\Users\\Ali Jahangiri\\AppData\\Local\\Temp\\arduino\\sketches\\B2BA2E09544B6CA45C04920ABDE1657F\\sketch\\objs.a" "C:\\Users\\Ali Jahangiri\\AppData\\Local\\Temp\\arduino\\sketches\\B2BA2E09544B6CA45C04920ABDE1657F\\sketch\\MID-EMEA-H7-001-Example-SendSMS.ino.cpp.o"
+Using previously compiled file: C:\Users\Ali Jahangiri\AppData\Local\Temp\arduino\sketches\B2BA2E09544B6CA45C04920ABDE1657F\libraries\Arduino_Cellular\objs.a
+Using previously compiled file: C:\Users\Ali Jahangiri\AppData\Local\Temp\arduino\sketches\B2BA2E09544B6CA45C04920ABDE1657F\libraries\ArduinoBearSSL\objs.a
+Using previously compiled file: C:\Users\Ali Jahangiri\AppData\Local\Temp\arduino\sketches\B2BA2E09544B6CA45C04920ABDE1657F\libraries\ArduinoBearSSL\bearssl\objs.a
+Using previously compiled file: C:\Users\Ali Jahangiri\AppData\Local\Temp\arduino\sketches\B2BA2E09544B6CA45C04920ABDE1657F\libraries\ArduinoBearSSL\utility\objs.a
+Using previously compiled file: C:\Users\Ali Jahangiri\AppData\Local\Temp\arduino\sketches\B2BA2E09544B6CA45C04920ABDE1657F\libraries\ArduinoHttpClient\objs.a
+Using previously compiled file: C:\Users\Ali Jahangiri\AppData\Local\Temp\arduino\sketches\B2BA2E09544B6CA45C04920ABDE1657F\libraries\ArduinoHttpClient\utility\URLParser\objs.a
+Using previously compiled file: C:\Users\Ali Jahangiri\AppData\Local\Temp\arduino\sketches\B2BA2E09544B6CA45C04920ABDE1657F\core\objs.a
+"C:\\Users\\Ali Jahangiri\\AppData\\Local\\Arduino15\\packages\\arduino\\tools\\arm-none-eabi-gcc\\7-2017q4/bin/arm-none-eabi-g++" "-LC:\\Users\\Ali Jahangiri\\AppData\\Local\\Temp\\arduino\\sketches\\B2BA2E09544B6CA45C04920ABDE1657F" -Wl,--gc-sections -w -Wl,--as-needed -DCM4_BINARY_START=0x08100000 -DCM4_BINARY_END=0x08200000 "@C:\\Users\\Ali Jahangiri\\AppData\\Local\\Arduino15\\packages\\arduino\\hardware\\mbed_portenta\\4.1.3\\variants\\PORTENTA_H7_M7/ldflags.txt" "-TC:\\Users\\Ali Jahangiri\\AppData\\Local\\Temp\\arduino\\sketches\\B2BA2E09544B6CA45C04920ABDE1657F/linker_script.ld" "-Wl,-Map,C:\\Users\\Ali Jahangiri\\AppData\\Local\\Temp\\arduino\\sketches\\B2BA2E09544B6CA45C04920ABDE1657F/MID-EMEA-H7-001-Example-SendSMS.ino.map" --specs=nosys.specs -o "C:\\Users\\Ali Jahangiri\\AppData\\Local\\Temp\\arduino\\sketches\\B2BA2E09544B6CA45C04920ABDE1657F/MID-EMEA-H7-001-Example-SendSMS.ino.elf" -Wl,--whole-archive "C:\\Users\\Ali Jahangiri\\AppData\\Local\\Temp\\arduino\\sketches\\B2BA2E09544B6CA45C04920ABDE1657F\\sketch\\objs.a" "C:\\Users\\Ali Jahangiri\\AppData\\Local\\Temp\\arduino\\sketches\\B2BA2E09544B6CA45C04920ABDE1657F\\libraries\\Arduino_Cellular\\objs.a" "C:\\Users\\Ali Jahangiri\\AppData\\Local\\Temp\\arduino\\sketches\\B2BA2E09544B6CA45C04920ABDE1657F\\libraries\\ArduinoBearSSL\\objs.a" "C:\\Users\\Ali Jahangiri\\AppData\\Local\\Temp\\arduino\\sketches\\B2BA2E09544B6CA45C04920ABDE1657F\\libraries\\ArduinoBearSSL\\bearssl\\objs.a" "C:\\Users\\Ali Jahangiri\\AppData\\Local\\Temp\\arduino\\sketches\\B2BA2E09544B6CA45C04920ABDE1657F\\libraries\\ArduinoBearSSL\\utility\\objs.a" "C:\\Users\\Ali Jahangiri\\AppData\\Local\\Temp\\arduino\\sketches\\B2BA2E09544B6CA45C04920ABDE1657F\\libraries\\ArduinoHttpClient\\objs.a" "C:\\Users\\Ali Jahangiri\\AppData\\Local\\Temp\\arduino\\sketches\\B2BA2E09544B6CA45C04920ABDE1657F\\libraries\\ArduinoHttpClient\\utility\\URLParser\\objs.a" "C:\\Users\\Ali Jahangiri\\AppData\\Local\\Temp\\arduino\\sketches\\B2BA2E09544B6CA45C04920ABDE1657F\\core\\objs.a" -Wl,--no-whole-archive -Wl,--whole-archive "C:\\Users\\Ali Jahangiri\\AppData\\Local\\Temp\\arduino\\sketches\\B2BA2E09544B6CA45C04920ABDE1657F/..\\..\\cores\\794cb918b81cba18f16e5dc53ce6a774\\core.a" "C:\\Users\\Ali Jahangiri\\AppData\\Local\\Arduino15\\packages\\arduino\\hardware\\mbed_portenta\\4.1.3\\variants\\PORTENTA_H7_M7/libs/libmbed.a" -Wl,--no-whole-archive -Wl,--start-group -lstdc++ -lsupc++ -lm -lc -lgcc -lnosys -Wl,--end-group
+"C:\\Users\\Ali Jahangiri\\AppData\\Local\\Arduino15\\packages\\arduino\\tools\\arm-none-eabi-gcc\\7-2017q4/bin/arm-none-eabi-objcopy" -O binary "C:\\Users\\Ali Jahangiri\\AppData\\Local\\Temp\\arduino\\sketches\\B2BA2E09544B6CA45C04920ABDE1657F/MID-EMEA-H7-001-Example-SendSMS.ino.elf" "C:\\Users\\Ali Jahangiri\\AppData\\Local\\Temp\\arduino\\sketches\\B2BA2E09544B6CA45C04920ABDE1657F/MID-EMEA-H7-001-Example-SendSMS.ino.bin"
+"C:\\Users\\Ali Jahangiri\\AppData\\Local\\Arduino15\\packages\\arduino\\tools\\arm-none-eabi-gcc\\7-2017q4/bin/arm-none-eabi-objcopy" -O ihex -R .eeprom "C:\\Users\\Ali Jahangiri\\AppData\\Local\\Temp\\arduino\\sketches\\B2BA2E09544B6CA45C04920ABDE1657F/MID-EMEA-H7-001-Example-SendSMS.ino.elf" "C:\\Users\\Ali Jahangiri\\AppData\\Local\\Temp\\arduino\\sketches\\B2BA2E09544B6CA45C04920ABDE1657F/MID-EMEA-H7-001-Example-SendSMS.ino.hex"
+C:\Users\Ali Jahangiri\AppData\Local\Arduino15\packages\arduino\hardware\mbed_portenta\4.1.3\bootloaders\PORTENTA_H7\portentah7_bootloader_mbed_hs_v2.elf syntax error: no colon char on the first line character at line 1
+
+Using library Arduino_Cellular at version 1.1.0 in folder: C:\Users\Ali Jahangiri\Documents\Arduino\libraries\Arduino_Cellular 
+Using library ArduinoBearSSL at version 1.7.3 in folder: C:\Users\Ali Jahangiri\Documents\Arduino\libraries\ArduinoBearSSL 
+Using library StreamDebugger at version 1.0.1 in folder: C:\Users\Ali Jahangiri\Documents\Arduino\libraries\StreamDebugger 
+Using library TinyGSM at version 0.11.7 in folder: C:\Users\Ali Jahangiri\Documents\Arduino\libraries\TinyGSM 
+Using library ArduinoHttpClient at version 0.6.0 in folder: C:\Users\Ali Jahangiri\Documents\Arduino\libraries\ArduinoHttpClient 
+Performing 1200-bps touch reset on serial port COM17
+Waiting for upload port...
+Upload port found on COM18
+"C:\Users\Ali Jahangiri\AppData\Local\Arduino15\packages\arduino\tools\dfu-util\0.10.0-arduino1/dfu-util" --device 0x2341:0x035b -D "C:\Users\Ali Jahangiri\AppData\Local\Temp\arduino\sketches\B2BA2E09544B6CA45C04920ABDE1657F/MID-EMEA-H7-001-Example-SendSMS.ino.bin" -a0 --dfuse-address=0x08040000:leave
+dfu-util 0.10-dev
+
+Copyright 2005-2009 Weston Schmidt, Harald Welte and OpenMoko Inc.
+Copyright 2010-2021 Tormod Volden and Stefan Schmidt
+This program is Free Software and has ABSOLUTELY NO WARRANTY
+Please report bugs to http://sourceforge.net/p/dfu-util/tickets/
+
+Opening DFU capable USB device...
+Device ID 2341:035b
+Device DFU version 011a
+Claiming USB DFU Interface...
+Setting Alternate Interface #0 ...
+Determining device status...
+DFU state(2) = dfuIDLE, status(0) = No error condition is present
+DFU mode device DFU version 011a
+Device returned transfer size 4096
+DfuSe interface name: "Internal Flash   "
+Downloading element to address = 0x08040000, size = 178364
+
+Erase   	[                         ]   0%            0 bytes
+Erase   	[                         ]   0%            0 bytes
+Erase   	[=                        ]   4%         8192 bytes
+Erase   	[==                       ]   9%        16384 bytes
+Erase   	[===                      ]  13%        24576 bytes
+Erase   	[====                     ]  16%        28672 bytes
+Erase   	[=====                    ]  20%        36864 bytes
+Erase   	[======                   ]  25%        45056 bytes
+Erase   	[=======                  ]  29%        53248 bytes
+Erase   	[========                 ]  32%        57344 bytes
+Erase   	[=========                ]  36%        65536 bytes
+Erase   	[==========               ]  41%        73728 bytes
+Erase   	[===========              ]  45%        81920 bytes
+Erase   	[============             ]  48%        86016 bytes
+Erase   	[=============            ]  52%        94208 bytes
+Erase   	[==============           ]  57%       102400 bytes
+Erase   	[===============          ]  62%       110592 bytes
+Erase   	[================         ]  64%       114688 bytes
+Erase   	[=================        ]  68%       122880 bytes
+Erase   	[==================       ]  73%       131072 bytes
+Erase   	[===================      ]  78%       139264 bytes
+Erase   	[====================     ]  80%       143360 bytes
+Erase   	[=====================    ]  84%       151552 bytes
+Erase   	[======================   ]  89%       159744 bytes
+Erase   	[=======================  ]  94%       167936 bytes
+Erase   	[======================== ]  96%       172032 bytes
+Erase   	[=========================] 100%       178364 bytes
+Erase    done.
+
+Download	[                         ]   0%            0 bytes
+Download	[=                        ]   4%         8192 bytes
+Download	[==                       ]   9%        16384 bytes
+Download	[===                      ]  13%        24576 bytes
+Download	[====                     ]  16%        28672 bytes
+Download	[=====                    ]  20%        36864 bytes
+Download	[======                   ]  25%        45056 bytes
+Download	[=======                  ]  29%        53248 bytes
+Download	[========                 ]  32%        57344 bytes
+Download	[=========                ]  36%        65536 bytes
+Download	[==========               ]  41%        73728 bytes
+Download	[===========              ]  45%        81920 bytes
+Download	[============             ]  48%        86016 bytes
+Download	[=============            ]  52%        94208 bytes
+Download	[==============           ]  57%       102400 bytes
+Download	[===============          ]  62%       110592 bytes
+Download	[================         ]  64%       114688 bytes
+Download	[=================        ]  68%       122880 bytes
+Download	[==================       ]  73%       131072 bytes
+Download	[===================      ]  78%       139264 bytes
+Download	[====================     ]  80%       143360 bytes
+Download	[=====================    ]  84%       151552 bytes
+Download	[======================   ]  89%       159744 bytes
+Download	[=======================  ]  94%       167936 bytes
+Download	[======================== ]  96%       172032 bytes
+Download	[=========================] 100%       178364 bytes
+Download done.
+File downloaded successfully
+Transitioning to dfuMANIFEST state
+Warning: Invalid DFU suffix signature
+A valid DFU suffix will be required in a future dfu-util release

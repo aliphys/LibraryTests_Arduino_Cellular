@@ -1,0 +1,28 @@
+---------
+Test Scenario ID: MID-GLOBAL-C33-002-SMS-Emoji
+---------
+
+Connecting to network...
+SIM Status: 1
+Waiting for network registration...
+No APN specified, not connecting to GPRS
+Connected!
+---
+Test Case ID: MID-GLOBAL-C33-002-SMS-Emoji-01
+Send Tears of Joy emoji (😂)...
+😂
+Response: 0
+---
+Test Case ID: MID-GLOBAL-C33-002-SMS-Emoji-02
+Send Thumbs Up with Medium Skin Tone (👍🏽)...
+👍🏽
+Response: 0
+---
+Test Case ID: MID-GLOBAL-C33-002-SMS-Emoji-03
+Send Man Cartwheeling (🤸‍♂️)...
+🤸‍♂️
+Response: 2
+
+---------
+End of Test Scenario ID: MID-GLOBAL-C33-002-SMS-Emoji
+---------

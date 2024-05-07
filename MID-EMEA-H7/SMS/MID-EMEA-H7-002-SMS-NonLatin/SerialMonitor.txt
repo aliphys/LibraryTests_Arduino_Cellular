@@ -1,0 +1,43 @@
+---------
+Test Scenario ID: MID-EMEA-H7-002-SMS-NonLatin
+---------
+
+Connecting to network...
+SIM Status: 1
+Waiting for network registration...
+No APN specified, not connecting to GPRS
+Connected!
+---
+Test Case ID: MID-EMEA-H7-002-SMS-NonLatin-01
+Send Arabic text...
+العربية
+Response: 2
+---
+Test Case ID: MID-EMEA-H7-002-SMS-NonLatin-02
+Send Cyrillic text...
+русский
+Response: 0
+---
+Test Case ID: MID-EMEA-H7-002-SMS-NonLatin-03
+Send Chinese text...
+汉字
+Response: 0
+---
+Test Case ID: MID-EMEA-H7-002-SMS-NonLatin-04
+Send Japanese text...
+日本語
+Response: 0
+---
+Test Case ID: MID-EMEA-H7-002-SMS-NonLatin-05
+Send Korean text...
+한글
+Response: 0
+---
+Test Case ID: MID-EMEA-H7-002-SMS-NonLatin-06
+Send Hindi text...
+हिंदी
+Response: 0
+
+---------
+End of Test Scenario ID: MID-EMEA-H7-002-SMS-NonLatin
+---------

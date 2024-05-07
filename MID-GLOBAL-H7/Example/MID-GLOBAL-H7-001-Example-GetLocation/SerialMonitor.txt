@@ -1,0 +1,18 @@
+---------
+Test Scenario ID: MID-GLOBAL-H7-001-Example-GetLocation
+---------
+
+---
+Test Case ID: MID-GLOBAL-H7-001-Example-GetLocation-01
+Enabling GPS...
+Failed to set GPS mode.
+Response: 
+Failed to enable GPS
+---
+Test Case ID: MID-GLOBAL-H7-001-Example-GetLocation-02
+Unsupported modem model
+GPS Location:
+* Latitude: 0.000000
+* Longitude: 0.000000
+--------------------
+

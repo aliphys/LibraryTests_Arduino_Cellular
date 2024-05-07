@@ -1,0 +1,17 @@
+---------
+Test Scenario ID: MID-GLOBAL-H7-001-Example-GetTime
+---------
+
+---
+Test Case ID: MID-GLOBAL-H7-001-Example-GetTime-01
+Enabling GPS...
+Failed to set GPS mode.
+Response: 
+Failed to enable GPS
+---
+Test Case ID: MID-GLOBAL-H7-001-Example-GetTime-02
+Unsupported modem model
+Failed to get GPS location
+---
+Test Case ID: MID-GLOBAL-H7-001-Example-GetTime-03
+Current cellular time (ISO8601): 

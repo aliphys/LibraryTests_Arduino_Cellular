@@ -1,0 +1,50 @@
+---------
+Test Scenario ID: MID-GLOBAL-C33-002-SMS-Volume
+---------
+
+Connecting to network...
+SIM Status: 1
+Waiting for network registration...
+No APN specified, not connecting to GPRS
+Connected!
+---
+Test Case ID: MID-GLOBAL-C33-002-SMS-Volume-01
+Send 1 text...
+Single Text
+Response: 0
+---
+Test Case ID: MID-GLOBAL-C33-001-Example-SendSMS-02
+Send 3 texts...
+Response: 0
+1/3 texts
+Response: 0
+2/3 texts
+Response: 0
+3/3 texts
+---
+Test Case ID: MID-GLOBAL-C33-001-Example-SendSMS-03
+Send 10 texts...
+Response: 0
+1/10 texts
+Response: 0
+2/10 texts
+Response: 0
+3/10 texts
+Response: 0
+4/10 texts
+Response: 0
+5/10 texts
+Response: 0
+6/10 texts
+Response: 0
+7/10 texts
+Response: 0
+8/10 texts
+Response: 2
+9/10 texts
+Response: 0
+10/10 texts
+
+---------
+End of Test Scenario ID: MID-GLOBAL-C33-002-SMS-Volume
+---------

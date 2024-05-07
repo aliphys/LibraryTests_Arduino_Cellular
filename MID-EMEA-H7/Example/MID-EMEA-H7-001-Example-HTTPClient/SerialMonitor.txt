@@ -1,0 +1,27 @@
+
+---------
+Test Scenario ID: MID-EMEA-H7-001-Example-HTTPClient
+---------
+
+---
+Test Case ID: MID-EMEA-H7-001-Example-HTTPClient-01
+Connecting...
+SIM Status: 1
+Waiting for network registration...
+Connecting to 4G network...
+Connected to the network!
+---
+Test Case ID: MID-EMEA-H7-001-Example-HTTPClient-02
+Making GET request...
+Status code: 200
+Response: 
+  _____            _____  _____  _____
+    |  | |\ | \_/ |  ___ |_____ |  |  |
+    |  | | \|  |  |_____| _____||  |  |
+
+
+
+---------
+End of Test Scenario ID: MID-EMEA-H7-001-Example-HTTPClient
+---------
+

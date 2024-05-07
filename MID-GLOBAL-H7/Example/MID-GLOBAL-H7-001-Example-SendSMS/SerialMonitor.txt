@@ -1,0 +1,20 @@
+---------
+Test Scenario ID: MID-GLOBAL-H7-001-Example-SendSMS
+---------
+
+---
+Test Case ID: MID-GLOBAL-H7-001-Example-SendSMS-01
+Connecting to network...
+SIM Status: 1
+Waiting for network registration...
+No APN specified, not connecting to GPRS
+Connected!
+---
+Test Case ID: MID-GLOBAL-H7-001-Example-SendSMS-02
+Sending SMS...
+Response: 0
+Done.
+
+---------
+End of Test Scenario ID: MID-GLOBAL-H7-001-Example-SendSMS
+---------

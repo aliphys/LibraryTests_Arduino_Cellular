@@ -1,0 +1,52 @@
+---------
+Test Scenario ID: MID-EMEA-H7-001-Example-DeleteSMS
+---------
+
+Connecting to network...
+SIM Status: 0
+Waiting for network registration...
+No APN specified, not connecting to GPRS
+Connected!
+Enabling Echo...
+
+OK
+
+---
+Test Case ID: MID-EMEA-H7-001-Example-DeleteSMS-01
+Setting SMS text mode...
+AT+CMGF=1
+
+OK
+
+---
+Test Case ID: MID-EMEA-H7-001-Example-DeleteSMS-02
+Select message storage area...
+AT+CPMS="SM","SM","SM"
+
++CPMS: 2,30,2,30,2,30
+
+OK
+
+---
+Test Case ID: MID-EMEA-H7-001-Example-DeleteSMS-03
+Set SMSC number to be stored with text message...
+AT+CSCA="+1234567890"
+
+OK
+
+---
+Test Case ID: MID-EMEA-H7-001-Example-DeleteSMS-04
+Write SMS message...
+
+---
+Test Case ID: MID-EMEA-H7-001-Example-DeleteSMS-05
+Get unread SMS...
+---
+Test Case ID: MID-EMEA-H7-001-Example-DeleteSMS-06
+Enter the index of the SMS you want to delete:
+Deleting SMS...
+Failed to delete SMS.
+
+---------
+End of Test Scenario ID: MID-EMEA-H7-001-Example-DeleteSMS
+---------

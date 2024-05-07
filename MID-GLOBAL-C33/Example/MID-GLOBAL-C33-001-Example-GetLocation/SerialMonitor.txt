@@ -1,0 +1,19 @@
+---------
+Test Scenario ID: MID-GLOBAL-C33-001-Example-GetLocation
+---------
+
+---
+Test Case ID: MID-GLOBAL-C33-001-Example-GetLocation-01
+Enabling GPS...
+GPS enabled
+---
+Test Case ID: MID-GLOBAL-C33-001-Example-GetLocation-02
+GPS Location:
+* Latitude: 0.000000
+* Longitude: 0.000000
+--------------------
+
+
+---------
+End of Test Scenario ID: MID-GLOBAL-C33-001-Example-GetLocation
+---------

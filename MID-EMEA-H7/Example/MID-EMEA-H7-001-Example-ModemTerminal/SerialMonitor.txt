@@ -1,0 +1,87 @@
+---------
+Test Scenario ID: MID-EMEA-H7-001-Example-ModemTerminal
+---------
+
+---
+Test Case ID: MID-EMEA-H7-001-Example-ModemTerminal-01
+SIM Status: 1
+Waiting for network registration...
+Connecting to 4G network...
+Connected to the network!
+---
+Test Case ID: MID-EMEA-H7-001-Example-ModemTerminal-02
+Send AT...
+
+OK
+
+---
+Test Case ID: MID-EMEA-H7-001-Example-ModemTerminal-03
+Send ATE0...
+
+OK
+
+---
+Test Case ID: MID-EMEA-H7-001-Example-ModemTerminal-04
+Send ATE1...
+
+OK
+
+---
+Test Case ID: MID-EMEA-H7-001-Example-ModemTerminal-05
+Send AT+CFUN?...
+AT+CFUN?
+
++CFUN: 1
+
+OK
+
+---
+Test Case ID: MID-EMEA-H7-001-Example-ModemTerminal-06
+Send AT+CPIN?...
+AT+CPIN?
+
++CPIN: READY
+
+OK
+
+---
+Test Case ID: MID-EMEA-H7-001-Example-ModemTerminal-07
+Send AT+CSQ...
+AT+CSQ
+
++CSQ: 25,99
+
+OK
+
+---
+Test Case ID: MID-EMEA-H7-001-Example-ModemTerminal-08
+Send AT+CGDCONT?...
+AT+CGDCONT?
+
++CGDCONT: 1,"IP","data.lycamobile.se","0.0.0.0",0,0,0,0,0,0
++CGDCONT: 8,"IPV4V6","IMS","0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0",0,0,0,0,1,1
+
+OK
+
+---
+Test Case ID: MID-EMEA-H7-001-Example-ModemTerminal-09
+Send AT+CGATT?...
+AT+CGATT?
+
++CGATT: 1
+
+OK
+
+---
+Test Case ID: MID-EMEA-H7-001-Example-ModemTerminal-09
+Send AT+COPS?...
+AT+COPS?
+
++COPS: 0,0,"LycaMobile",7
+
+OK
+
+
+---------
+End of Test Scenario ID: MID-EMEA-H7-001-Example-ModemTerminal
+---------

@@ -1,0 +1,14 @@
+---
+Test Case ID: MID-GLOBAL-C33-001-Example-GetTime-01
+Enabling GPS...
+GPS enabled
+---
+Test Case ID: MID-GLOBAL-C33-001-Example-GetTime-02
+Failed to get GPS location
+---
+Test Case ID: MID-GLOBAL-C33-001-Example-GetTime-03
+Current cellular time (ISO8601): 2024-05-06T13:31:13+00:00
+
+---------
+End of Test Scenario ID: MID-GLOBAL-C33-001-Example-GetTime
+---------

@@ -1,0 +1,57 @@
+---------
+Test Scenario ID: MID-GLOBAL-H7-002-SMS-Length
+---------
+
+Connecting to network...
+SIM Status: 0
+SIM not ready, cannot connect to network.
+Failed to connect to network.
+---
+Test Case ID: MID-GLOBAL-H7-002-SMS-Length-01
+Send 0 character SMS...
+
+Response: 0
+---
+Test Case ID: MID-GLOBAL-H7-002-SMS-Length-02
+Send 1 character SMS...
+A
+Response: 0
+---
+Test Case ID: MID-GLOBAL-H7-002-SMS-Length-03
+Send 2 character SMS...
+AB
+Response: 0
+---
+Test Case ID: MID-GLOBAL-H7-002-SMS-Length-04
+Send 69 character SMS...
+69 characters: Lorem ipsum dolor sit amet, consectetur adipiscing el.
+Response: 0
+---
+Test Case ID: MID-GLOBAL-H7-002-SMS-Length-05
+Send 70 character SMS...
+70 characters: Lorem ipsum dolor sit amet, consectetur adipiscing eli.
+Response: 0
+---
+Test Case ID: MID-GLOBAL-H7-002-SMS-Length-06
+Send 71 character SMS...
+71 characters: Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+Response: 2
+---
+Test Case ID: MID-GLOBAL-H7-002-SMS-Length-07
+Send 159 character SMS...
+159 characters: Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim ven
+Response: 0
+---
+Test Case ID: MID-GLOBAL-H7-002-SMS-Length-08
+Send 160 character SMS...
+160 characters: Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim ven
+Response: 0
+---
+Test Case ID: MID-GLOBAL-H7-002-SMS-Length-09
+Send 161 character SMS...
+161 characters: Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veni
+Response: 0
+
+---------
+End of Test Scenario ID: MID-GLOBAL-H7-002-SMS-Length
+---------

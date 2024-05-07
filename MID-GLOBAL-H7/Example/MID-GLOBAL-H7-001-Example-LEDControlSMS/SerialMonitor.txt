@@ -1,0 +1,12 @@
+
+---------
+Test Scenario ID: MID-GLOBAL-H7-001-Example-LEDControlSMS
+---------
+
+---
+Test Case ID: MID-GLOBAL-H7-001-Example-LEDControlSMS-01
+Blink LED 3 times upon startup...
+---
+Test Case ID: MID-GLOBAL-H7-001-Example-LEDControlSMS-02
+Turn LED on when sending 'on'...
+Waiting for SMS...
